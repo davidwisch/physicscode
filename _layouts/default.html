@@ -1,10 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/screen.css" />
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
 		<title>{{page.title}}</title>
 	</head>
 
 	<body>
-		<div id="page-content">{{content}}</div>
+		<div id="page-content">
+			<div id="page-title">
+				Physics Code
+				<div id="page-nav-links">
+					<ul>
+						<li><a href="/gettingstarted">Getting Started</a> |</li>
+						<li><a href="/guides">Guides</a> |</li>
+						<li><a href="/examples">Code Examples</a> |</li>
+						<li><a href="/involved">Getting Involved</a></li>
+					</ul>
+				</div>
+			</div>
+			{{content}}
+
+			<div id="footer">
+				&copy;2010 physicscode.org
+			</div>
+		</div>
 	</body>
 </html>

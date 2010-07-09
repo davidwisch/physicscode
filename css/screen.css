@@ -1,3 +1,38 @@
-body{
+body {
 	margin: 0;
+	font-family: 'Lucida Grande', Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+#page-content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#page-title {
+	width: 100%;
+	color: #E13300;
+	font-size: 24px;
+	border-bottom: 1px solid #878484;
+}
+
+#page-nav-links {
+	display: inline;
+	font-size: 14px;
+}
+
+#page-nav-links ul {
+	list-style-type: none;
+	display: inline;
+}
+
+#page-nav-links li {
+	display: inline;
+}
+
+#footer {
+	margin-top: 10px;
+	border-top: 1px solid #878484;
+	width: 100%;
+	text-align: center;
 }
