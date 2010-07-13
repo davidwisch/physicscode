@@ -11,9 +11,17 @@ body {
 
 #page-title {
 	width: 100%;
+	border-bottom: 1px solid #878484;
+}
+
+#page-title a.main, a.main:visited {
 	color: #E13300;
 	font-size: 24px;
-	border-bottom: 1px solid #878484;
+	text-decoration: none;
+}
+
+#page-title a.main:hover {
+	text-decoration: underline;
 }
 
 #page-nav-links {
