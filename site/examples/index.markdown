@@ -3,14 +3,11 @@ layout: default
 title: Code Examples
 ---
 
-# Code Examples and Snippits
+### Basic Operations
 
-{% highlight python %}
-#Code Highlighting!
-class pythonIsTheBest:
-	def __init__(self):
-		print "Python is the best!"
+* [Compiling/Running a program](/examples/basic_compiling.html)
+* [Declaring variables](/examples/basic_variable_declarations.html)
+* [Mathematical operations](/examples/basic_mathematical_operations.html)
+* [Reading data from a file](/examples/basic_reading_data.html)
+* [Writing data to a file](/examples/basic_writing_data.html)
 
-if __name__ == "__main__":
-	pythonIsTheBest()
-{% endhighlight %}
