@@ -12,23 +12,30 @@ This guide provides examples of coding techniques usefull in an undergraduate ph
 
 Python is a general purpose scripting language known for its simplicity and ease of use.
 
-**Please read [Installing/Configuring Python](/gettingstarted/python.html) to get started.**
+**The following guides are available for Python:**
+
+* [Installing/Configuring Python](/gettingstarted/python_installation.html)
+* [Running Python Programs](/gettingstarted/python_running.html)
 
 ## C++
 [http://en.wikipedia.org/wiki/C%2B%2B](http://en.wikipedia.org/wiki/C%2B%2B)
 
 C++ does stuff fast.  You can also write operating systems in it.  (RJ should write this section).
 
-**Please read [Installing/Configuring C++](/gettingstarted/cpp.html) to get started.**
+**The following guides are available for C++:**
+
+* [Installing/Configuring C++](/gettingstarted/cpp_installation.html)
 
 ## Fortran
 [http://en.wikipedia.org/wiki/Fortran](http://en.wikipedia.org/wiki/Fortran)
 
 Fortran has roots that go as far back as the 1950's.  It has a strong history with various engineering disiplines and the physical sciences.  It is also the "official" language of the Illinois State University Physics Department.
 
-**Please read [Installing/Configuring Fortran](/gettingstarted/fortran.html) to get started.**
+**The following guides are available for Fortran:**
+
+* [Installing/Configuring Fortran](/gettingstarted/fortran_installation.html)
 
 ## Mathematica
 [http://www.wolfram.com](http://www.wolfram.com)
 
-Mathematica is a computational software program developed by Wolfram Research.  Mathematica is proprietary software and thus cannot be freely aquired.  Talk to your system administrator or refer to the [Wolfram](http://www.wolfram.com/) website to assistance aquiring and installing Mathematica.
+Mathematica is a computational software program developed by Wolfram Research.  Mathematica is proprietary software and thus cannot be freely aquired.  Talk to your system administrator or refer to the [Wolfram](http://www.wolfram.com/) website for assistance aquiring and installing Mathematica.
