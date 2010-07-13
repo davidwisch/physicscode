@@ -54,4 +54,4 @@ You're in luck!  Python should already be installed on your system.  Incase it i
 sudo apt-get install python
 {% endhighlight %}
 
-from the commant line to install.
+from the command line to install.
