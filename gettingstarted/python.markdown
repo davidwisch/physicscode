@@ -36,7 +36,7 @@ If instead you see, "'python' is not recognized as an internal or external comma
 3. Select the 'Advanced' tab
 4. Click the 'Environment Variables' button
 5. In the 'System Variables' section, findn PATH and click the 'Edit' button
-6. After the text in the user 'Variable value' box, put the follpwing: C:\Python27
+6. After the text in the user 'Variable value' box, put the following: C:\Python27
 
 You may need to Logout/Login before the changes take effect.  You should now be ready to use Python.
 
