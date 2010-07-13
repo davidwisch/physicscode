@@ -15,7 +15,6 @@ Python is a general purpose scripting language known for its simplicity and ease
 **The following guides are available for Python:**
 
 * [Installing/Configuring Python](/gettingstarted/python_installation.html)
-* [Running Python Programs](/gettingstarted/python_running.html)
 
 ## C++
 [http://en.wikipedia.org/wiki/C%2B%2B](http://en.wikipedia.org/wiki/C%2B%2B)

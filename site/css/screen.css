@@ -38,6 +38,11 @@ body {
 	display: inline;
 }
 
+pre {
+	padding: 5px;
+	border: 1px solid black;
+}
+
 #footer {
 	margin-top: 10px;
 	border-top: 1px solid #878484;
