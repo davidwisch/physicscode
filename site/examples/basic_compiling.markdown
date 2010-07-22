@@ -30,7 +30,7 @@ Simply placing that text in a file and running it with:
 python basic_running.py
 {% endhighlight %}
 
-will produce the output "Hello World!"... no compiling needed.
+will produce the output "Hello World!"... no compiling needed..
 
 <a name="cpp"></a>
 ## C++
