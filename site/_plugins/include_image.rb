@@ -2,7 +2,7 @@ module Jekyll
 	class ImageIncludeTag < Liquid::Tag
 		def initialize(tag_name, src, tokens)
 			super
-			@src = src.strip!
+			@src = src.strip
 		end
 
 		def render(context)

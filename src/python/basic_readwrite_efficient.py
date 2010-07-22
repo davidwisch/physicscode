@@ -10,7 +10,7 @@ lines = []
 
 for line in f:
 	lines.append(line.split(",")) #our columns were separated with commas
-	#lines.append(line.split(",")) #if out columns were separated with spaces
+	#lines.append(line.split(",")) #if our columns were separated with spaces
 
 #close the connection to our file
 f.close()
