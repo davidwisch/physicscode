@@ -53,7 +53,7 @@ div2 = float1 / float2
 
 # Note on the gotcha:
 # A math operation between two integers will never produce a float unless
-# one you cast one of the integers to a float before the operation.  This can
+# you cast one of the integers to a float before the operation.  This can
 # be done either by multiplying by 1.0 or using the float() function to cast
 # as a float.
 
@@ -71,7 +71,7 @@ print "\nPOWERS:"
 print int1, "^", int2, "=", pow1
 print float1, "^", float2, "=", pow2
 
-# Sin, Cos, Tan
+# Sin, Cos, Tan =============================================
 # math.pi is pi, stored as a constant in the math library
 sin1 = math.sin(math.pi)
 cos1 = math.cos(math.pi)
@@ -80,10 +80,10 @@ tan1 = math.tan(math.pi)
 # there are similar functions for arcsin, arccos, and arctan, see the python
 # documentation for more details (http://docs.python.org/library/math.html) 
 
-print "\nSin, Cos, Tan"
-print "Sin(pi) =", sin1
+print "\nSIN, COS, TAN"
+print "Sin(pi) =", sin1, "- basically zero"
 print "Cos(pi) =", cos1
-print "Tan(pi) =", tan1
+print "Tan(pi) =", tan1, "- basically zero"
 
 # Logs =======================================================
 ex = math.exp(4)
@@ -91,16 +91,16 @@ log1 = math.log(4)
 log2 = math.log(4, 10)
 log3 = math.log(4, 3)
 
-print "\nLogarithms:"
+print "\nLOGARITHMS"
 print "e^4 =", ex
 print "log_e(4) =", log1
 print "log_10(4) =", log2
 print "log_3(4) = ", log3
 
-# String Concatination =======================================
+# String Concatenation =======================================
 con1 = str1 + str2
 con2 = str1 * 4
 
-print "\nSTRING CONCATINATION"
+print "\nSTRING CONCATENATION"
 print str1, "+", str2, "=", con1
 print str1, "x 4 =", con2
