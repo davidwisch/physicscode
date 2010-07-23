@@ -28,6 +28,7 @@ You can find more about reading and writing files in Python in their [offial doc
 **Jump To**
 * [Reading Data Files](#python-reading)
 * [Writing Data Files](#python-writing)
+* [Sample Data File](#python-datafile)
 
 <a name="python-reading"></a>
 ### Reading
@@ -94,7 +95,7 @@ lines.append(map(float, line.split(",")))
 In which case, the casts in the print statment would no longer be required.
 
 <a name="python-writing"></a>
-###Writing
+### Writing
 
 Writing datafiles in Python is quite easy.  There's only one method that this tutorial is going to go over.
 
@@ -105,7 +106,17 @@ File: src/python/basic_readwrite_write.py
 {% file python/basic_readwrite_write.py %}
 {% endhighlight %}
 
-**NOTE:** In Python, data is not written to the output file until either the *flush()* or *close()* methods is called.
+**NOTE:** In Python, data is not written to the output file until either the *flush()* or *close()* methods is called (or until the program ends execution).
+
+<a name="python-datafile"></a>
+### Data File
+
+Below is the datafile used in all of the above Python examples:
+
+File: src/python/sampledata.txt
+{% highlight text %}
+{% file python/sampledata.txt %}
+{% endhighlight %}
 
 <a name="cpp"></a>
 ## C++
@@ -115,7 +126,54 @@ File: src/python/basic_readwrite_write.py
 <a name="fortran"></a>
 ## Fortran
 
-*FILL ME OUT*
+Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  Writing to a file from Fortran is especially painless.  See the examples below for further explanation.
+
+#### Jump To:
+* [Reading Data Files](#fortran-reading)
+* [Writing Data Files](#fortran-writing)
+* [Sample Data File](#fortran-datafile)
+
+<a name="fortran-reading"></a>
+### Reading Data Files
+
+Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  The trickery comes from the fact that you need to know the length of the data file (number of lines) in order to define the length of the array that will contain its data.  Common methods for solving this problem include, A) prompting the user the the number of rows of data, and B) using the first row in the datafile to define the number of data-rows.  (B) is what is demonstrated in the following example.
+
+The following example requires that you know, explicitly, the column-format of your data.  Allocatable arrays are used so that we can dynamically set the dimentions of our 'X' array.
+
+Read more about allocatable arrays [here](http://wikis.sun.com/display/openmp/Fortran+Allocatable+Arrays).
+
+Read more about formatted input/output [here](http://www.cs.mtu.edu/~shene/COURSES/cs201/NOTES/chap05/format.html).
+
+Below is a program that reads a datafile into a multidimentional array:
+
+File: src/fortran/basic_readwrite_read.f95
+{% highlight fortran %}
+{% file fortran/basic_readwrite_read.f95 %}
+{% endhighlight %}
+
+<a name="fortran-writing"></a>
+### Writing Data Files
+
+Writing files in Fortran is very easy and requires no advanced syntax.
+
+Below is an example of how to write a file in Fortran:
+
+File: src/fortran/basic_readwrite_write.f95
+{% highlight fortran %}
+{% file fortran/basic_readwrite_write.f95 %}
+{% endhighlight %}
+
+**NOTE:** In Fortran, data is not written to the file on the WRITE() command, data is stored in the buffer until A) the CLOSE() function is called, B) the FLUSH() function is called, or C) the program completes.
+
+<a name="fortran-datafile"></a>
+### Sample Datafile
+
+The following is the datafile used in the above Fortran 'read' example.  Notice that the first row contains the number of rows of data to read.
+
+File: src/fortran/sampledata.txt
+{% highlight text %}
+{% file fortran/sampledata.txt %}
+{% endhighlight %}
 
 <a name="mathematica"></a>
 ## Mathematica
