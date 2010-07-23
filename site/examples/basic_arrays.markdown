@@ -23,6 +23,8 @@ All four of our languages support some kind of an array.  Their specific impleme
 
 Arrays in Python are very different from their C++ or Fortran counterparts.  Python's implementation of the array is one of the weaker aspects of the language (at least from a computational physics perspective) but can be made to work.  Usually, although Python does have an "array" datatype, array-like behavior is implemented using the 'list' datatype instead.  Multidimentional arrays are an especially weak point in the Python language but an example of a multidimentional structure using embedded lists is provided.
 
+One positive about Python arrays (all of the implementations) is that they're dynamic which means you can add elements to them at anytime.  In many other languages, without using advanced techniques, after you declare the size of an array, it cannot be changed.
+
 When speed or more flexibility is needed, it is reccomended that you use the [NumPy](http://numpy.scipy.org/) addon package for Python.  It includes a "correct" implementation of arrays and multidimentional arrays (as well as many other physics goodies).  An example using NumPy is also provided.
 
 **Jump To:**
@@ -124,7 +126,58 @@ arr2D = numpy.zeros((4,4))
 <a name="fortran"></a>
 ## Fortran
 
-*FILL ME OUT*
+Arrays are implemented quite painlessly in Fortran and follow all of the same rules that you might expect.
+
+**Jump To:**
+
+* [One-Dimentional Arrays](#fortran-1d)
+* [One-Dimentional Arrays (Short Syntax)](#fortran-1dshort)
+* [Multidimentional Arrays](#fortran-multi)
+* [Allocatable Arrays](#fortran-allocatable)
+
+<a name="fortran-1d"></a>
+### One-Dimentional Arrays
+
+Here is an example of a one-dimentional array in Fortran:
+
+File: src/fortran/basic_arrays_1d.f95
+{% highlight fortran %}
+{% file fortran/basic_arrays_1d.f95 %}
+{% endhighlight %}
+
+<a name="fortran-1dshort"></a>
+### One-Dimentional Arrays (Short Syntax)
+
+Fortran does provide an alternative syntax for creating 1D arrays.  Here is an example of it:
+
+File: src/fortran/basic_arrays_1dshort.f95
+{% highlight fortran %}
+{% file fortran/basic_arrays_1dshort.f95 %}
+{% endhighlight %}
+
+<a name="fortran-multi"></a>
+### Multidimentional Arrays
+
+In Fortan, multidimentional arrays function virtually identically to one-dimentional ones.  They follow the same rules, and similar declaration syntax.
+
+Here is an example of a multidimentional array in Fortran:
+
+File: src/fortran/basic_arrays_multi.f95
+{% highlight fortran %}
+{% file fortran/basic_arrays_multi.f95 %}
+{% endhighlight %}
+
+<a name="fortran-allocatable"></a>
+### Allocatable Arrays
+
+While Fortran arrays arn't dynamic, they do offer a hint of that convenience in the form of allocatable arrays.  With an allocatable array you can declare an array without specifying its size until later in the code.  You can only specify the size once (you cannot re-allocate an array), but this makes some tasks much easier.
+
+Here is an example of an allocatable array in Fortran:
+
+File: src/fortran/basic_arrays_allocatable.f95
+{% highlight fortran %}
+{% file fortran/basic_arrays_allocatable.f95 %}
+{% endhighlight %}
 
 <a name="mathematica"></a>
 ## Mathematica
