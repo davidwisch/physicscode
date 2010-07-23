@@ -31,7 +31,7 @@ You can find more about reading and writing files in Python in their [offial doc
 * [Sample Data File](#python-datafile)
 
 <a name="python-reading"></a>
-### Reading
+### Reading Data Files
 
 Reading data files in Python is quite easy but there are a number of ways you can do it.  For most cases, it won't matter which one you choose.  However, depending on your method, you will be required to take different steps to access your data.
 
@@ -95,7 +95,7 @@ lines.append(map(float, line.split(",")))
 In which case, the casts in the print statment would no longer be required.
 
 <a name="python-writing"></a>
-### Writing
+### Writing Data Files
 
 Writing datafiles in Python is quite easy.  There's only one method that this tutorial is going to go over.
 
