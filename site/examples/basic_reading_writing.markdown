@@ -26,6 +26,7 @@ Reading and writing data files in Python is painless.  See the examples below fo
 You can find more about reading and writing files in Python in their [offial documentation](http://docs.python.org/tutorial/inputoutput.html#reading-and-writing-files).
 
 **Jump To**
+
 * [Reading Data Files](#python-reading)
 * [Writing Data Files](#python-writing)
 * [Sample Data File](#python-datafile)
