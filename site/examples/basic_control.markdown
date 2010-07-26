@@ -25,7 +25,7 @@ In Python, control is build using **if**, **elif**, and **else** statments.
 
 You can read *much* more about python control structures [here](http://docs.python.org/tutorial/controlflow.html).
 
-Here is an example of a program that prints out if a number is positive or negative:
+Here is an example of a program that prints out if a number is positive, negative, or zero.
 
 **NOTE:** The *raw_input* function is simply a way to accept user input into your program, it is unrelated to the proper function of the control statments.
 
@@ -53,7 +53,23 @@ There are other operations, not mentioned here, that could be usefull.  See the 
 <a name="fortran"></a>
 ## Fortran
 
-*FILL ME OUT*
+Control statments in Fortran function as they do in many other major languages.  Program flow decisions are contained within **IF**/**END IF** statments.
+
+Here is an example of a program that prints out of a number is positive, negative, or zero:
+
+File: src/fortran/basic_contro.f95
+{% highlight fortran %}
+{% file fortran/basic_control.f95 %}
+{% endhighlight %}
+
+In addition to if/else if/else, Fortran supports **.AND.** and **.OR.** operations.
+
+Here is a weak example of how to use them:
+
+File: src/fortran/basic_control_andor.f95
+{% highlight fortran %}
+{% file fortran/basic_control_andor.f95 %}
+{% endhighlight %}
 
 <a name="mathematica"></a>
 ## Mathematica
