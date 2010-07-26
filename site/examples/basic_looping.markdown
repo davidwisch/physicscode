@@ -104,7 +104,36 @@ File: src/python/basic_loops_map2.py
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-*FILL ME OUT*
+Fortran supports *for* and *while* loops in much the same way that languages like C++ and Java do.  However, in Fortran, the *for* loop is called a *do* loop, the usage is quite similar though.
+
+**Jump to:**
+
+* [While Loops](#fortran-while)
+* [For Loops](#fortran-for)
+
+<a name="fortran-while"></a>
+### While Loops
+
+*While* loops are implemented in a very straight forward fashion.  Here is an example of a Fortran *while* loop:
+
+File: src/fortran/basic_loops_while.f95
+{% highlight fortran %}
+{% file fortran/basic_loops_while.f95 %}
+{% endhighlight %}
+
+<a name="fortran-for"></a>
+### For Loops
+
+Fortran uses the same *for(var, condition, increment)* syntax that will be framiliar to many except instead of *for* the syntax is *do*.  Furthermore, if the increment is going to be 1, you can ommit it (if not specified, the increment defaults to 1).
+
+Here is an example that has the same output as the previous example:
+
+File: src/fortran/basic_loops_for.f95
+{% highlight fortran %}
+{% file fortran/basic_loops_for.f95 %}
+{% endhighlight %}
+
+It is possible to construct loop-like structures using Fortran's *GOTO* statement.  While unfortunatly common, this approach is nonstandard and thus will not get an example here.
 
 <a name="mathematica"></a>
 ## Mathematica
