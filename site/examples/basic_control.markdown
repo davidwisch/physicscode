@@ -23,6 +23,13 @@ If you want to get fancy, you can read about [ternary operations](http://en.wiki
 
 In Python, control is build using **if**, **elif**, and **else** statments.
 
+Some *requirements* that you can impose in your conditionals include:
+
+* **==** - equals
+* **!==** - not equals
+* **<, >** - greater than/less than
+* **<=, >=** - greater than or equals/less than or equals
+
 You can read *much* more about python control structures [here](http://docs.python.org/tutorial/controlflow.html).
 
 Here is an example of a program that prints out if a number is positive, negative, or zero.
@@ -55,9 +62,16 @@ There are other operations, not mentioned here, that could be usefull.  See the 
 
 Control statments in Fortran function as they do in many other major languages.  Program flow decisions are contained within **IF**/**END IF** statments.
 
+Some *requirements* that you can impose on your conditionals include:
+
+* **.EQ.** - equals
+* **.NE.** - not equals
+* **.GT., .LT.** - greater than/less than
+* **.GE., .LE.** - greater than or equals/less than or equals
+
 Here is an example of a program that prints out of a number is positive, negative, or zero:
 
-File: src/fortran/basic_contro.f95
+File: src/fortran/basic_control.f95
 {% highlight fortran %}
 {% file fortran/basic_control.f95 %}
 {% endhighlight %}
