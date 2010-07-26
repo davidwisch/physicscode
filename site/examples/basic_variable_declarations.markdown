@@ -15,7 +15,7 @@ Variables are one of the most basic building blocks of any program.  They allow 
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python
+## Python <small>[(top)](#top)</small>
 
 Python is a dynamically typed language which means that you can create new variables simply by assigning values to them.  In other languages (see below), you have to explicityly set the type of a variable (integer, double precision, string, etc.), not so in Python.
 
@@ -27,12 +27,12 @@ File: src/python/basic_variables.py
 {% endhighlight %}
 
 <a name="cpp"></a>
-## C++
+## C++ <small>[(top)](#top)</small>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran
+## Fortran <small>[(top)](#top)</small>
 
 In Fortran, you are technically not required to declare your variables ahead of time.  However, the compiler uses the name of your variable to determine its type.  This is a bad practice and I will not discuss those naming conventions here.
 
@@ -56,6 +56,6 @@ File: src/fortran/basic_variables.f95
 **NOTE** the use of the **TRIM** function to remove whitespace from the CHARACTER variables.  Functions will be discussed in depth more later.
 
 <a name="mathematica"></a>
-## Mathematica
+## Mathematica <small>[(top)](#top)</small>
 
 *FILL ME OUT*

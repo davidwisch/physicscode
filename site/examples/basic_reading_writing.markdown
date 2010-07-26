@@ -19,7 +19,7 @@ When reading data from a file, you will have to know the format of the data ahea
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python
+## Python <small>[(top)](#top)</small>
 
 Reading and writing data files in Python is painless.  See the examples below for further explanation.
 
@@ -120,12 +120,12 @@ File: src/python/sampledata.txt
 {% endhighlight %}
 
 <a name="cpp"></a>
-## C++
+## C++ <small>[(top)](#top)</small>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran
+## Fortran <small>[(top)](#top)</small>
 
 Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  Writing to a file from Fortran is especially painless.  See the examples below for further explanation.
 
@@ -177,6 +177,6 @@ File: src/fortran/sampledata.txt
 {% endhighlight %}
 
 <a name="mathematica"></a>
-## Mathematica
+## Mathematica <small>[(top)](#top)</small>
 
 *FILL ME OUT*

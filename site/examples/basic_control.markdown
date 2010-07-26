@@ -19,7 +19,7 @@ This guide will show you the syntax of **IF**, **ELSE IF**, and **ELSE** statmen
 If you want to get fancy, you can read about [ternary operations](http://en.wikipedia.org/wiki/Ternary_operation).
 
 <a name="python"></a>
-## Python
+## Python <small>[(top)](#top)</small>
 
 In Python, control is build using **if**, **elif**, and **else** statments.
 
@@ -53,12 +53,12 @@ File: src/python/basic_control_andor.py
 There are other operations, not mentioned here, that could be usefull.  See the [official documentation](http://docs.python.org/tutorial/controlflow.html) for mroe information.
 
 <a name="cpp"></a>
-## C++
+## C++ <small>[(top)](#top)</small>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran
+## Fortran <small>[(top)](#top)</small>
 
 Control statments in Fortran function as they do in many other major languages.  Program flow decisions are contained within **IF**/**END IF** statments.
 
@@ -86,6 +86,6 @@ File: src/fortran/basic_control_andor.f95
 {% endhighlight %}
 
 <a name="mathematica"></a>
-## Mathematica
+## Mathematica <small>[(top)](#top)</small>
 
 *FILL ME OUT*

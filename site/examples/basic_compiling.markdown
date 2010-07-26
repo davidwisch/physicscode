@@ -15,7 +15,7 @@ title: Compiling and running your program
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python
+## Python <small>[(top)](#top)</small>
 
 Python programs are not compiled, they're *interpreted*.  This means that you can simply run the same file that you write code in.  Here's an example of Python:
 
@@ -33,12 +33,12 @@ python basic_running.py
 will produce the output "Hello World!"... no compiling needed.
 
 <a name="cpp"></a>
-## C++
+## C++ <small>[(top)](#top)</small>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran
+## Fortran <small>[(top)](#top)</small>
 
 Fortran 90/95 programs are compiled using either the *g95* or *gfortran* commands.  Here is a program, written in Fortran, that prints "Hello World" two different ways:
 
@@ -83,6 +83,6 @@ Both of the above commands will produce an executable named *basic_running* inst
 **NOTE:** From now on, all Fortran examples will be tested and shown using the g95 compiler.  Don't worry if you're using gfortran, the two are very similar.
 
 <a name="mathematica"></a>
-## Mathematica
+## Mathematica <small>[(top)](#top)</small>
 
 *FILL ME OUT*
