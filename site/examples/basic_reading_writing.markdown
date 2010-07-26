@@ -19,7 +19,9 @@ When reading data from a file, you will have to know the format of the data ahea
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python <small>[(top)](#top)</small>
+## Python
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Reading and writing data files in Python is painless.  See the examples below for further explanation.
 
@@ -120,12 +122,16 @@ File: src/python/sampledata.txt
 {% endhighlight %}
 
 <a name="cpp"></a>
-## C++ <small>[(top)](#top)</small>
+## C++
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran <small>[(top)](#top)</small>
+## Fortran
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  Writing to a file from Fortran is especially painless.  See the examples below for further explanation.
 
@@ -136,6 +142,8 @@ Reading data files in Fortran is fairly easy.  However, reading data into an arr
 
 <a name="fortran-reading"></a>
 ### Reading Data Files
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  The trickery comes from the fact that you need to know the length of the data file (number of lines) in order to define the length of the array that will contain its data.  Common methods for solving this problem include, A) prompting the user the the number of rows of data, and B) using the first row in the datafile to define the number of data-rows.  (B) is what is demonstrated in the following example.
 
@@ -177,6 +185,8 @@ File: src/fortran/sampledata.txt
 {% endhighlight %}
 
 <a name="mathematica"></a>
-## Mathematica <small>[(top)](#top)</small>
+## Mathematica
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*

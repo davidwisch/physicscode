@@ -19,7 +19,9 @@ This guide will show you the syntax of **IF**, **ELSE IF**, and **ELSE** statmen
 If you want to get fancy, you can read about [ternary operations](http://en.wikipedia.org/wiki/Ternary_operation).
 
 <a name="python"></a>
-## Python <small>[(top)](#top)</small>
+## Python
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 In Python, control is build using **if**, **elif**, and **else** statments.
 
@@ -53,12 +55,16 @@ File: src/python/basic_control_andor.py
 There are other operations, not mentioned here, that could be usefull.  See the [official documentation](http://docs.python.org/tutorial/controlflow.html) for mroe information.
 
 <a name="cpp"></a>
-## C++ <small>[(top)](#top)</small>
+## C++
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran <small>[(top)](#top)</small>
+## Fortran
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Control statments in Fortran function as they do in many other major languages.  Program flow decisions are contained within **IF**/**END IF** statments.
 
@@ -86,6 +92,8 @@ File: src/fortran/basic_control_andor.f95
 {% endhighlight %}
 
 <a name="mathematica"></a>
-## Mathematica <small>[(top)](#top)</small>
+## Mathematica
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*

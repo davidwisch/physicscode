@@ -22,10 +22,13 @@
 				</div>
 			</div>
 
-			{{content}}
+			{{ content }}
 
 			<div id="footer">
-				&copy;2010 physicscode.org
+				&copy;2010 Physicscode.org |
+				Built using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+				on {{ site.time | date: "%d/%m/%Y %H:%M" }} |
+				@ commit: <a href="http://github.com/davidwisch/physicscode/commit/{% commit_hash %}" target="_blank">{% commit_hash %}</a>
 			</div>
 		</div>
 	</body>

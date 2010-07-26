@@ -19,7 +19,10 @@ All four of our languages support some kind of an array.  Their specific impleme
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python <small>[(top)](#top)</small>
+
+## Python
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Arrays in Python are very different from their C++ or Fortran counterparts.  Python's implementation of the array is one of the weaker aspects of the language (at least from a computational physics perspective) but can be made to work.  Usually, although Python does have an "array" datatype, array-like behavior is implemented using the 'list' datatype instead.  Multidimentional arrays are an especially weak point in the Python language but an example of a multidimentional structure using embedded lists is provided.
 
@@ -119,12 +122,16 @@ arr2D = numpy.zeros((4,4))
 {% endhighlight %}
 
 <a name="cpp"></a>
-## C++ <small>[(top)](#top)</small>
+## C++
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran <small>[(top)](#top)</small>
+## Fortran
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Arrays are implemented quite painlessly in Fortran and follow all of the same rules that you might expect.
 
@@ -180,6 +187,8 @@ File: src/fortran/basic_arrays_allocatable.f95
 {% endhighlight %}
 
 <a name="mathematica"></a>
-## Mathematica <small>[(top)](#top)</small>
+## Mathematica
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*

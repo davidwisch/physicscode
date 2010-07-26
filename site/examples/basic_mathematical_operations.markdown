@@ -17,7 +17,9 @@ Mathematica has a HUGE number of build in numberical functions and libraries, fa
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python <small>[(top)](#top)</small>
+## Python
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Python sometimes gives you access to some functions without you needing to do anything.  However, sometimes, and in the case of mathematical functions, they need to be imported before you have access to them.  The Python library that contains mathematical functions is simply called 'math'.
 
@@ -41,12 +43,16 @@ from math import *
 {% endhighlight %}
 
 <a name="cpp"></a>
-## C++ <small>[(top)](#top)</small>
+## C++
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran <small>[(top)](#top)</small>
+## Fortran
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Fortran gives you access to its math functions without any import statments.  Other arithmetic operations function as you would expect.
 
@@ -59,6 +65,8 @@ Here is an example of a complete Fortran program that demonstrates the use of ar
 {% endhighlight %}
 
 <a name="mathematica"></a>
-## Mathematica <small>[(top)](#top)</small>
+## Mathematica
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*

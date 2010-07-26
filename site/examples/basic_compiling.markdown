@@ -15,7 +15,9 @@ title: Compiling and running your program
 * [Mathematica](#mathematica)
 
 <a name="python"></a>
-## Python <small>[(top)](#top)</small>
+## Python
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Python programs are not compiled, they're *interpreted*.  This means that you can simply run the same file that you write code in.  Here's an example of Python:
 
@@ -33,12 +35,16 @@ python basic_running.py
 will produce the output "Hello World!"... no compiling needed.
 
 <a name="cpp"></a>
-## C++ <small>[(top)](#top)</small>
+## C++
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*
 
 <a name="fortran"></a>
-## Fortran <small>[(top)](#top)</small>
+## Fortran
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Fortran 90/95 programs are compiled using either the *g95* or *gfortran* commands.  Here is a program, written in Fortran, that prints "Hello World" two different ways:
 
@@ -83,6 +89,8 @@ Both of the above commands will produce an executable named *basic_running* inst
 **NOTE:** From now on, all Fortran examples will be tested and shown using the g95 compiler.  Don't worry if you're using gfortran, the two are very similar.
 
 <a name="mathematica"></a>
-## Mathematica <small>[(top)](#top)</small>
+## Mathematica
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 *FILL ME OUT*
