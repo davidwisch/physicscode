@@ -37,6 +37,7 @@ When speed or more flexibility is needed, it is reccomended that you use the [Nu
 * [Multidimentional Array with Lists](#python-multilist)
 * [NumPy Array](#python-numpy)
 * [NumPy Multidimentional Array](#python-numpymulti)
+* [Looping Through Arrays](#python-looping)
 
 <a name="python-list"></a>
 ### The Python 'list' Type
@@ -120,6 +121,49 @@ import numpy
 # For a 4x4, fills with 0s
 arr2D = numpy.zeros((4,4))
 {% endhighlight %}
+
+<a name="python-looping"></a>
+### Looping Through Arrays
+
+The ability to iterate through an array is a usefull one.  It allows you to quickly and efficiently traverse your data for analysis, sorting, or simply just for access.  The syntax for iterating in Python is fairly standard regardless if you're looping through a Python list, array, or numpy array.  An example of looking at 2D data is also provided.
+
+#### 1D Data
+
+In its most basic form, looping through a list looks like this:
+
+File: src/python/basic_arrays_looping1.py
+{% highlight python %}
+{% file python/basic_arrays_looping1.py %}
+{% endhighlight %}
+
+The same output but using an integer as an iterator:
+
+File: src/python/basic_arrays_looping2.py
+{% highlight python %}
+{% file python/basic_arrays_looping2.py %}
+{% endhighlight %}
+
+**NOTE:** Looping over NumPy arrays and Python arrays uses the same syntax.
+
+#### 2D Data
+
+Looping through data requires that you embed for loop within each other.  Often, when dealing with 2D data, it is more convinient to loop using the 'traditional' method (using an integer as an iterator) since we have numerical indicies corresponding to every value.  An example of the "Pythonic way" as well as the "traditional" way are shown:
+
+Here is an example using a NumPy 2D array:
+
+File: src/python/basic_arrays_looping3.py
+{% highlight python %}
+{% file python/basic_arrays_looping3.py %}
+{% endhighlight %}
+
+Here is another example, looping over the same array, except using integers as the iterators:
+
+File: src/python/basic_arrays_looping4.py
+{% highlight python %}
+{% file python/basic_arrays_looping4.py %}
+{% endhighlight %}
+
+**NOTE:** Looping over Python lists and arrays uses the same syntax.
 
 <a name="cpp"></a>
 ## C++
