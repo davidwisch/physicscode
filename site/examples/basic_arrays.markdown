@@ -185,6 +185,7 @@ Arrays are implemented quite painlessly in Fortran and follow all of the same ru
 * [One-Dimentional Arrays (Short Syntax)](#fortran-1dshort)
 * [Multidimentional Arrays](#fortran-multi)
 * [Allocatable Arrays](#fortran-allocatable)
+* [Looping Through Arrays](#fortran-looping)
 
 <a name="fortran-1d"></a>
 ### One-Dimentional Arrays
@@ -228,6 +229,31 @@ Here is an example of an allocatable array in Fortran:
 File: src/fortran/basic_arrays_allocatable.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_allocatable.f95 %}
+{% endhighlight %}
+
+<a name="fortran-looping"></a>
+### Looping Through Arrays
+
+The ability to iterate through an array is a usefull one.  It allows you to quickly and efficiently traverse your data for analysis, sorting, or simply just for access.  The syntac for looping throughh data in Fortran is straightforward and concise. Examples for looping through 1D and 2D data are provided.
+
+#### 1D Data
+
+Here is an example of looping through a 1D array:
+
+File: src/fortran/basic_arrays_looping1.f95
+{% highlight fortran %}
+{% file fortran/basic_arrays_looping1.f95 %}
+{% endhighlight %}
+
+#### 2D Data
+
+Looping through 2D data requires that two DO loops be embedded within each other.
+
+Here is an example:
+
+File: src/fortran/basic_arrays_looping2.f95
+{% highlight fortran %}
+{% file fortran/basic_arrays_looping2.f95 %}
 {% endhighlight %}
 
 <a name="mathematica"></a>
