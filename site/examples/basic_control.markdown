@@ -5,11 +5,12 @@ title: Controlling The Flow of Your Programs
 
 # Controlling The Flow of Your Programs
 
-**Choose your language:**
-
 Very often is it necessary to change the execution of your program based on certain parameters or conditions.  Imagine if you were writing a program that would display if a number was negative or positive, or similarly, if a number was even or odd.  You would need to use an **IF** statement in order to direct your program through different paths of execution.
 
 This guide will show you the syntax of **IF**, **ELSE IF**, and **ELSE** statments. A brief discussion on **AND** and **OR** statements is alsoincluded.
+
+
+**Choose your language:**
 
 * [Python](#python)
 * [C++](#cpp)
