@@ -3,6 +3,8 @@ layout: default
 title: Code Examples
 ---
 
+# Code Examples
+
 ### Basic Operations
 
 * [Compiling/Running a program](/examples/basic_compiling.html)
