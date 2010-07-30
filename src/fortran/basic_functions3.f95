@@ -3,6 +3,8 @@
 ! A function that calculates the sample standard deviation of a set of numbers
 
 PROGRAM basic_functions3
+	IMPLICIT NONE
+
 	INTEGER :: nums(8)
 	REAL :: sd
 
@@ -13,7 +15,8 @@ PROGRAM basic_functions3
 
 CONTAINS
 	REAL FUNCTION findSD(nums)
-		INTEGER :: nums(8)
+		! IMPLICIT NONE is inherited
+		INTEGER :: nums(8), i
 		REAL :: inner_sum = 0.0, mean
 
 		mean = SUM(nums) / FLOAT(SIZE(nums))

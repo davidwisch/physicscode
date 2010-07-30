@@ -61,7 +61,7 @@ File: src/python/basic_functions4.py
 {% file python/basic_functions4.py %}
 {% endhighlight %}
 
-Clearly this type of function could be very useful to us in a real program.  You can verify the output of the program through Wolfram Alpha [here](http://www.wolframalpha.com/input/?i=standard+deviation+of+{25,+35,+10,+17,+29,+14,+21,+31}).  
+Clearly this type of function could be very useful to us in a real program.  You can verify the output of the program through Wolfram Alpha [here](http://www.wolframalpha.com/input/?i=standard+deviation+of+{25,+35,+10,+17,+29,+14,+21,+31}).
 
 **NOTE:** There were two times in the above example where we ensured that our calculations were done as floats instead of integers.  There's an explicit *float()* cast when calculating the average, then we multiply by 1.0 when we multiply scale our inner sum.  Without these, as long as we pass a list of integers, the result will always be *0.0* (the result, *0.0* is a float because *math.sqrt()* always returns a float).
 

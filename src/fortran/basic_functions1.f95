@@ -13,6 +13,7 @@ PROGRAM basic_functions1
 
 CONTAINS
 	REAL FUNCTION add_nums(num1, num2)
+		!IMPLICIT NONE is inherited
 		REAL :: num1, num2
 
 		add_nums = num1 + num2

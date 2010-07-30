@@ -14,6 +14,7 @@ END PROGRAM basic_functions2
 
 ! External function
 REAL FUNCTION add_nums(num1, num2)
+	IMPLICIT NONE !not inherited
 	REAL :: num1, num2
 
 	add_nums = num1 + num2
