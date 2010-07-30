@@ -3,6 +3,8 @@ layout: default
 title: Getting Involved
 ---
 
+<a href="http://github.com/davidwisch/physicscode"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
+
 # Getting Involved
 
 *Physicscode* is a completely open source project and everyone is welcome (and encouraged!) to contribute.  We're looking for people help us expand our content, improve our code, design our site, and even help fix our spelling and grammar errors.
