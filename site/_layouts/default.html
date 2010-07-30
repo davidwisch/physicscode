@@ -5,6 +5,18 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/screen.css" />
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			/* make all external links to open in a new page */
+			$("a").each(function(){
+				if($(this).attr("href") != undefined
+					&& $(this).attr("href").search(/^http/i) != -1){
+					$(this).attr("target", "_blank");
+				}
+			});
+		});
+		</script>
 		<title>{{page.title}}</title>
 	</head>
 
