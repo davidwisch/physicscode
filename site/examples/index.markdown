@@ -12,4 +12,4 @@ title: Code Examples
 * [Loop Structures](/examples/basic_looping.html)
 * [Working with arrays](/examples/basic_arrays.html)
 * [Reading/Writing data from/to a file](/examples/basic_reading_writing.html)
-
+* [Writing Basic Functions](/examples/basic_functions.html)
