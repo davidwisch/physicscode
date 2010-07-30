@@ -81,10 +81,11 @@ Clearly this type of function could be very useful to us in a real program.  You
 
 User defined functions in Fortran work essentially the same way that they do in other strongly typed languages.  Functions have a name, a return type, they can accept parameters, and can return values.
 
-In addition to functions, Fortran also supports subroutines.  While functions and subroutines can perform similar functions, they differ in two important ways.  These are:
+In addition to functions, Fortran also supports subroutines.  While functions and subroutines can perform similar functions, they differ in three important ways.  These are:
 
 * Subroutines have no type
 * Subroutines can return multiple values or no values at all
+* You use subroutines by using the **CALL** statement, not simply by refering to its name
 
 **Jump To:**
 
@@ -135,12 +136,31 @@ File: src/fortran/basic_functions3.f95
 {% file fortran/basic_functions3.f95 %}
 {% endhighlight %}
 
-You can verify the results of this program on Wolfram Alpha by going [here](http://www.wolframalpha.com/input/?i=standard+deviation+of+{25,+35,+10,+17,+29,+14,+21,+31}).
+You can verify the results of this program with Wolfram Alpha by going [here](http://www.wolframalpha.com/input/?i=standard+deviation+of+{25,+35,+10,+17,+29,+14,+21,+31}).
 
 <a name="fortran-subroutines"></a>
 ### Subroutines
 
-*FILL ME OUT*
+Subroutines can perform a similar as functions in Fortran problems.  Unlike functions however, they do not have an explicit return type and can return more than one value (or none).  While subroutines can be useful, they can also cause confusion because it's not always obvious what data a subroutine is manipulating.  Unlike functions, subtroutines are used by calling the **CALL** statement, not simply by using the function's name.
+
+Subroutines don't have an explicit return type and don't return values in the way that functions would.  Instead, passing variables into a subroutine give the subroutine access to read and write those variables.  The developer must be aware that passing variable *a* to a subroutine could effect a change in its value.  Because of this behavior, when using subroutines, then **INTENT** statment should always be used to protect variables.
+
+The *INTENT* statement is used during a variable declaration to control what can be done with each of the parameters passed into a subroutine.  Your parameter variables can be either *read*, *write*, or *read/write*.  Declaring these explicitly will save time in debugging and prevent subroutines from causing unexpected behavior.
+
+Here are *INTENT*'s three options:
+
+* **INTENT(IN)** - *readonly. This variable can be read but not written to.
+* **INTENT(OUT)** - *write. This variable is initially undefined but can be written to.
+* **INTENT(INOUT)** - *read/write.  This variable can be read from and written to.
+
+The following is an example of a subroutine that calculates the [sample standard deviation](http://mathworld.wolfram.com/StandardDeviation.html) of an array of numbers:
+
+File: src/fortran/basic_functions_subroutine.f95
+{% highlight fortran %}
+{% file fortran/basic_functions_subroutine.f95 %}
+{% endhighlight %}
+
+Notice how the *sd* variable is passed into the subroutine, had a value assigned, then used in the *PRINT* statement after the subroutine call.
 
 <a name="mathematica"></a>
 ## Mathematica
