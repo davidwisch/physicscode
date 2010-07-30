@@ -40,9 +40,9 @@ We've worked very hard to keep the technology behind *Physicscode* simple and st
 
 While the following technologies are used in parts of *Physicscode* they are not, strictly speaking, *required knowledge*.  However, to be an *elite* *Physicscode* developer you should probably know them, at least to some degree.
 
-* **HTML** - [HTML]() is the markup language behind most of the internet.  Even though we [mostly] don't mix HTML and our [Markdown](http://daringfireball.net/projects/markdown/) code, HTML is still used to write our templates an provide some additional functionality that isn't supported within Markdown.  Besides, if you're going to be writing websites of any kind, you should know HTML.
+* **HTML** - [HTML]() is the markup language behind most of the internet.  Even though we [mostly] don't mix HTML and our [Markdown](http://daringfireball.net/projects/markdown/) code, HTML is still used to write our templates and provide some additional functionality that isn't supported within Markdown.  Besides, if you're going to be writing websites of any kind, you should know HTML.
 
-* **Ruby** - [Ruby](http://www.ruby-lang.org) is a dynamic programming language that's similar to Python.  While Ruby is not a language that we use when writing our code examples, it is the language that powers certain parts of *Physicscode*.  All of our [Jekyll](http://jekyllrb.com) [plugins](#technology-plugins) are written in Ruby, part of our *deploy process* is written in Ruby, and infact even Jekyll itself is written in Ruby (although not by us).
+* **Ruby** - [Ruby](http://www.ruby-lang.org) is a dynamic programming language that's similar to Python.  While Ruby is not a language that we use when writing our code examples, it is the language that powers certain parts of *Physicscode*.  All of our [Jekyll](http://jekyllrb.com) [plugins](#technology-plugins) are written in Ruby, part of our deploy process is written in Ruby, and infact even Jekyll itself is written in Ruby (although not by us).
 
 * **Javascript/jQuery** - [jQuery](http://jquery.com/) while used as little as possible (not because we don't like it but because we want to keep the site simpe) still provides some additional dynamic functionality in various places throughout *Physicscode*.
 
@@ -77,6 +77,8 @@ Windows is the hardest platform to install the necessary dependencies on but wit
 #### Git on Windows
 
 There is no official [git](http://git-scm.com) binary for Windows.  Instead you should install the windows port [msysgit](http://code.google.com/p/msysgit/).  You can download an installer from their site.
+
+After git is installed, please complete the steps in the [Getting started with Git and GitHub](http://help.github.com/) guide hosted on GitHub.
 
 <a name="installing-windows-ruby"></a>
 #### Ruby on Windows
@@ -132,7 +134,9 @@ The dependencies for *Physicscode* install very easily on OSX.  Many of them are
 
 Please refer to [this guide](http://help.github.com/mac-git-installation/) for installing Git on OSX.
 
-<a name="installing-osx-ruby></a>
+After git is installed, please complete the steps in the [Getting started with Git and GitHub](http://help.github.com/) guide hosted on GitHub.
+
+<a name="installing-osx-ruby"></a>
 #### Ruby on OSX
 
 You're in luck!  Ruby is already installed on your system.
@@ -182,17 +186,101 @@ gem install rdiscount
 <a name="installing-ubuntu"></a>
 ### Installing on Ubuntu Linux
 
+Ubuntu (Linux in general) an exceptionally easy platform to develop *Physicscode* on.  Installing most of the dependencies is mostly a one-line operation.
+
+**Jump to:**
+
+* [Git on Ubuntu](#installing-ubuntu-git)
+* [Ruby on Ubuntu](#installing-ubuntu-ruby)
+* [Jekyll on Ubuntu](#installing-ubuntu-jekyll)
+* [Python on Ubuntu](#installing-ubuntu-python)
+* [Pygments on Ubuntu](#installing-ubuntu-pygments)
+* [rdiscount gem on Ubuntu](#installing-ubuntu-rdiscount)
+
+<a name="installing-ubuntu-git"></a>
+#### Git on Ubuntu
+
+Installing git on Ubuntu is a one line command.  Install using the following command:
+
+{% highlight bash %}
+sudo apt-get install git-core
+{% endhighlight %}
+
+<a name="installing-ubuntu-ruby"></a>
+#### Ruby on Ubuntu
+
+Installing ruby on Ubuntu is a one line command.  Install using the following command:
+
+{% highlight bash %}
+sudo apt-get install ruby
+{% endhighlight %}
+
+<a name="installing-ubuntu-jekyll"></a>
+#### Jekyll on Ubuntu
+
+Installing ruby on Ubuntu is a one line command.  Install using the following command:
+
+{% highlight bash %}
+gem install jekyll
+{% endhighlight %}
+
+<a name="installing-ubuntu-python"></a>
+#### Python on Ubuntu
+
+You're in luck!  Python is already installed on your system.
+
+<a name="installing-ubuntu-pygments"></a>
+#### Pygments on Ubuntu
+
+Installing Pygments on Ubuntu is a one line command.  Install using the following command:
+
+{% highlight bash %}
+sudo apt-get install python-pygments
+{% endhighlight %}
+
+<a name="installing-ubuntu-rdiscount"></a>
+#### rdiscount gem on Ubuntu
+
+Installing the rdiscount gem in Ubuntu is a one line command.  Install using the folowing command:
+
+{% highlight bash %}
+gem install rdiscount
+{% endhighlight %}
+
 <a name="code"></a>
 ## Getting the Code
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
+
+##### Look but not touch
+If you're interested in just looking at the code, you can download it by clicking on the "Download Source" button (see below) button on *Physicscode*'s [GitHub Page](http://github.com/davidwisch/physicscode).
+
+{% image involved/downloadsourcebutton %}
+
+You could also clone the repository to your computer using the following command:
+
+{% highlight bash %}
+git clone git://github.com/davidwisch/physicscode.git
+{% endhighlight %}
+
+##### Look and touch
+
+If you want a copy of the sourcecode so that you can edit it and contribute changes, you should fork the *Physicscode* project.  GitHub has a great guide to forking repositories [here](http://help.github.com/forking/).
 
 <a name="hacking"></a>
 ## Hacking the Code
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
+Now that you have a local copy of the *Physicscode* repository, feel free to start editing whatever you'd like.  This [git tutorial](http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html) and the [forking guide](http://help.github.com/forking/) on github have good tips on how to use git effectivly.
+
 <a name="submitting"></a>
 ## Submitting your Changes
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
+
+When you've completed a change that you think is ready for *Physicscode.org* you'll need to *push* the changes to your fork in GitHub.  Then, once your changes have been pushed, click the "Pull Request" in your forked repository (see image below).  Make sure at least one [maintainers]() is selected, describe your changes and click "Send Pull Request" (see image below).  That's it!  A maintainer will review your changes and merge them into the live site if they're ready!
+
+{% image involved/pullrequestbutton %}
+
+{% image involved/sendpullrequest %}
