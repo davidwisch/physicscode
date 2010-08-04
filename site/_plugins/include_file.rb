@@ -7,7 +7,7 @@ module Jekyll
 
 		def render(context)
 			contents = ""
-			path = File.join("..", "src", @file)
+			path = File.join(File.dirname(__FILE__), "..", "..", "src", @file)
 			if File.exists?(path)
 				File.open(path, "r") { |dat|
 					contents = dat.read

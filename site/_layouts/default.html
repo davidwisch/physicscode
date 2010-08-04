@@ -5,12 +5,25 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/screen.css" />
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			/* make all external links to open in a new page */
+			$("a").each(function(){
+				if($(this).attr("href") != undefined
+					&& $(this).attr("href").search(/^http/i) != -1){
+					$(this).attr("target", "_blank");
+				}
+			});
+		});
+		</script>
 		<title>{{page.title}}</title>
 	</head>
 
 	<body>
 		<div id="page-content">
 			<div id="page-title">
+				<a name="top"></a>
 				<a class="main" href="/">Physics Code</a>
 				<div id="page-nav-links">
 					<ul>
@@ -20,10 +33,14 @@
 					</ul>
 				</div>
 			</div>
-			{{content}}
+
+			{{ content }}
 
 			<div id="footer">
-				&copy;2010 physicscode.org
+				&copy;2010 Physicscode.org |
+				Built using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+				on {{ site.time | date: "%d/%m/%Y %H:%M" }} |
+				@ commit: <a href="http://github.com/davidwisch/physicscode/commit/{% commit_hash %}" target="_blank">{% commit_hash %}</a>
 			</div>
 		</div>
 	</body>

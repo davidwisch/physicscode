@@ -1,0 +1,1 @@
+These scripts make up our weak automated deployment process.  GitHub fires off a post-recieve hook to our update.php script which checks to see if the master branch was the one that was pushed to.  If so, it calls the ruby script which updates the live site with the content from the master branch.
