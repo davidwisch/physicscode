@@ -48,7 +48,9 @@ The following is an implementation of the program in Python.
 ### Fortran
 <div style="clear:both;"></div>
 
-*FILL ME OUT*
+{% highlight fortran %}
+{% file fortran/putting_interesting.f95 %}
+{% endhighlight %}
 
 <a name="Mathematica"></a>
 ### Mathematica
