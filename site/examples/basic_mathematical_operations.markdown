@@ -9,7 +9,7 @@ Most programming languages have builtin functions for performing basic, and some
 
 Mathematica has a HUGE number of build in numberical functions and libraries, far exeeding the number in native Python, C++, or Fortran.
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)

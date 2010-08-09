@@ -7,7 +7,7 @@ title: Declaring and Using Variables in your Programs
 
 Variables are one of the most basic building blocks of any program.  They allow you to store data (numbers, text, sets of values, etc.) for later retrieval and processing.
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)

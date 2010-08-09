@@ -5,7 +5,7 @@ title: Looping Structures
 
 # Looping Structres
 
-**Choose your language:**
+**Choose a language:**
 
 Loops are an essential component of any programs.  They allow you to traverse arrays ([next section](/examples/basic_arrays.html)), sample functions, sort data, etc.
 

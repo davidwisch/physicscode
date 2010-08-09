@@ -11,7 +11,7 @@ For example, in a simulation of a skater on ice, you may want to keep track of t
 
 All four of our languages support some kind of an array.  Their specific implementations are quite different, however.
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)

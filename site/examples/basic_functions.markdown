@@ -11,7 +11,7 @@ Despite how essential user-defined functions *should* be to any program, many be
 
 All major languages allow for some form of user-defined functions (although they might be called something else).  The basic declaration syntax for the four languages in this guide share many similarities with each other.
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)

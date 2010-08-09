@@ -4,7 +4,7 @@ body {
 	font-size: 14px;
 }
 
-h2{
+h2 {
 	width: 100%;
 	border-bottom: 1px solid black;
 }
@@ -49,10 +49,16 @@ pre {
 	border: 1px solid black;
 }
 
-div.to-top{
+img {
+	padding: 2px;
+	border: 1px solid #acacac;
+}
+
+div.to-top {
 	font-size: 12px;
 }
-div.to-top a{
+
+div.to-top a {
 	text-decoration: none;
 }
 
@@ -67,6 +73,6 @@ div.to-top a{
 	text-align: center;
 }
 
-#footer a{
+#footer a {
 	color: #8c8c8c;
 }

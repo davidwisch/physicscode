@@ -7,7 +7,7 @@ title: Compiling and running your program
 
 *Explanation on compiling*
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)

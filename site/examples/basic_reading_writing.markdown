@@ -11,7 +11,7 @@ All four languages have the ability to read/write data files but they require di
 
 When reading data from a file, you will have to know the format of the data ahead of time.  Each language has its own method for ingesting data in a particular format.
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)

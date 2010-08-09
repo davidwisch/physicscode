@@ -10,7 +10,7 @@ Very often is it necessary to change the execution of your program based on cert
 This guide will show you the syntax of **IF**, **ELSE IF**, and **ELSE** statments. A brief discussion on **AND** and **OR** statements is alsoincluded.
 
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)
