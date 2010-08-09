@@ -182,12 +182,12 @@ num = ( ( 2 / 4 * ( 5 - 3 ) ** ( 2 / 3.4 + ( 4 * 2 ) ) / 4 ** 2 ) / 4 ) ** 7.2 #
 <a name="code-newlines"></a>
 ### Line Endings
 
-The *Physicscode* server runs Ubuntu and both of the maintainers use POSIX systems to write site site.  When writing code or editing the site please make sure that you're using UNIX (\n) line endings.  Any real text editor will have an option to toggle between UNIX and Windows line endings.
+The *Physicscode* server runs Ubuntu and both of the maintainers use POSIX systems to write the site.  When writing code or editing the site please make sure that you're using UNIX (\n) line endings.  Any real text editor will have an option to toggle between UNIX and Windows line endings.
 
 <a name="code-functions"></a>
 ### Intrinsic Functions
 
-Don't use any build in function in your language without explaining what it does (unless it's already been explained elsewhere).  This is especially true in the "basics" section of the code examples.
+Don't use any builtin function without explaining what it does (unless it's already been explained elsewhere).  This is especially true in the "basics" section of the code examples
 
 <a name="plugins"></a>
 ## Plugins
@@ -206,11 +206,11 @@ The *image* plugin adds a [Liquid](http://www.liquidmarkup.org/) tag to Jekyll t
 
 The plugin assumes that **ALL** images reside somewhere in the physicscode/site/images directory and assumes they have a file extension **.png**.
 
-To use the plugin, put a line like the following in your markdown code:
+To use the plugin, use a the following syntax.
 
 &#123;% image funny/lolcat %&#125;
 
-The line would insert the following html into your page once the site was built:
+That line would insert the following HTML into the page.
 
 {% highlight html %}
 <img src="/images/funny/lolcat.png"/>
@@ -218,7 +218,7 @@ The line would insert the following html into your page once the site was built:
 
 Note how it appended the *.png* exrension and prefixed the path with */images/*.
 
-You should this to insert images into your pages.
+Use this plugin to insert an image into a page.
 
 *image* plugin is located at:
 
@@ -226,9 +226,9 @@ You should this to insert images into your pages.
 
 #### file
 
-The *file* plugin is used to import sourcecode files into your makrdown documents.  We wanted an ability to display people sourcecode in the browser but not require them to copy/paste code from their sample programs into the makrdown document.  The *file* plugin, at build time, reads a file, and returns its contents as a string into the markdown document.  Surround the *file* call with &#123;% highlight [language] %&#125; [code] &#123;% endhighlight %&#125; tags for syntax highlighting of the file.
+The *file* plugin is used to import sourcecode files into a makrdown documents.  We wanted an ability to display people sourcecode in the browser but not require them to copy/paste code from their sample programs into the makrdown document.  The *file* plugin, at build time, reads a file, and returns its contents as a string into the markdown document.  Surround the *file* call with &#123;% highlight [language] %&#125; [code] &#123;% endhighlight %&#125; tags for syntax highlighting of the file.
 
-This plugin asumes that all sourcecode is contained within the physicscode/src directory.  You should place your code in whatever subfolder matches the files language.
+This plugin asumes that all sourcecode is contained within the physicscode/src directory.  Place code in whatever subfolder matches the files language.
 
 Here's an example of importing and highlighting one Python and one Fortran file:
 

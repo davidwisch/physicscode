@@ -11,7 +11,7 @@ The "Basic Operations" section of [examples](/examples) covers all of the skills
 
 The following program samples the function *cos(x<sup>2</sup>)* 1000 in the range of 0 &rarr; &Pi;, stores the data in an array, then prints the data to the screen.
 
-**Choose your language:**
+**Choose a language:**
 
 * [Python](#python)
 * [C++](#cpp)
