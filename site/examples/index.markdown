@@ -16,3 +16,10 @@ title: Code Examples
 * [Reading/Writing data from/to a file](/examples/basic_reading_writing.html)
 * [Writing Basic Functions](/examples/basic_functions.html)
 
+## Physics
+
+* [Sampling a Function](/examples/physics_sampling.html)
+
+## Putting it all Together
+
+* [An Interesting Function](/examples/putting_interesting.html)
