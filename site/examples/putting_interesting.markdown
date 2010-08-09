@@ -3,7 +3,7 @@ layout: default
 title: An Interesting Function
 ---
 
-# An interesting Function
+# An Interesting Function
 
 ## Description
 
