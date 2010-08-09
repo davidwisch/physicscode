@@ -8,6 +8,8 @@
 * but we alrady had PHP running.
 */
 
+set_time_limit(0);
+
 if(! function_exists('json_decode')){
         exit("Your version of PHP is too old, requires json_decode.");
 }
