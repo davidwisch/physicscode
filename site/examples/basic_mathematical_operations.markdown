@@ -28,7 +28,6 @@ You can find a complete list of math functions in Python [here](http://docs.pyth
 Here is an example of a complete Python program that demonstrates the use of arithmetic, powers, logs, trigonometric functions, as well as string concatenation:
 
 
-File: src/python/basic_mathematical_operations.py
 {% highlight python %}
 {% file python/basic_mathematical_operations.py %}
 {% endhighlight %}

@@ -107,7 +107,7 @@ Every program needs to have a comment on the first line of the format:
 That is, if a Python program was named "array_multiplier.py*, its first line would be:
 
 {% highlight python %}
-File: src/python/array_multiplier.py
+# File: src/python/array_multiplier.py
 {% endhighlight %}
 
 A few lines down from the filename comment you should put a description of what that program does.

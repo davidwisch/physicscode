@@ -36,7 +36,6 @@ As mentioned, Python supports both the *for* and *while* loop structures.  The *
 
 Here is an example of how to construct a *while* loop in Python:
 
-File: src/python/basic_loops_while.py
 {% highlight python %}
 {% file python/basic_loops_while.py %}
 {% endhighlight %}
@@ -48,21 +47,18 @@ The *for* loop in Python doesn't follow the pattern of *for(var, condition, incr
 
 The first example is of an iterator (*index*) iterating through a list of numbers (0-8).
 
-File: src/python/basic_loops_for1.py
 {% highlight python %}
 {% file python/basic_loops_for1.py %}
 {% endhighlight %}
 
 It's important not to think of the set containing the numbers to be exclusive to numbers.  The following is also valid:
 
-File: src/python/basic_loops_for2.py
 {% highlight python %}
 {% file python/basic_loops_for2.py %}
 {% endhighlight %}
 
 This example has the same output as example #1 but achieves it through a different method.  This is alto the "Pythonic way" to redreate the behavior of the traditional for-loop:
 
-File: src/python/basic_loops_for3.py
 {% highlight python %}
 {% file python/basic_loops_for3.py %}
 {% endhighlight %}
@@ -76,7 +72,6 @@ While you can use the *for* loop in Python as you would in other languages, it i
 
 This example uses the [map](http://docs.python.org/library/functions.html#map) function to add 3 to every value of a list (lists are discussed more in the [next section](/examples/basic_arrays.html)).
 
-File: src/python/basic_loops_map1.py
 {% highlight python %}
 {% file python/basic_loops_map1.py %}
 {% endhighlight %}
@@ -85,7 +80,6 @@ File: src/python/basic_loops_map1.py
 
 The following example is used in the [reading/writing files](/examples/basic_arrays.html) section but with no explanation.  What it does is iterate through a list using Python's [float](http://docs.python.org/library/functions.html#float) function to cast its values as floating point numbers:
 
-File: src/python/basic_loops_map2.py
 {% highlight python %}
 {% file python/basic_loops_map2.py %}
 {% endhighlight %}
@@ -116,7 +110,6 @@ Fortran supports *for* and *while* loops in much the same way that languages lik
 
 *While* loops are implemented in a very straight forward fashion.  Here is an example of a Fortran *while* loop:
 
-File: src/fortran/basic_loops_while.f95
 {% highlight fortran %}
 {% file fortran/basic_loops_while.f95 %}
 {% endhighlight %}
@@ -128,7 +121,6 @@ Fortran uses the same *for(var, condition, increment)* syntax that will be frami
 
 Here is an example that has the same output as the previous example:
 
-File: src/fortran/basic_loops_for.f95
 {% highlight fortran %}
 {% file fortran/basic_loops_for.f95 %}
 {% endhighlight %}

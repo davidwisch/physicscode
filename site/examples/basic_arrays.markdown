@@ -46,7 +46,6 @@ This method of storing 1D data works well for relativly small data sets (< 10000
 
 Here is an example of a list:
 
-File: src/python/basic_arrays_list.py
 {% highlight python %}
 {% file python/basic_arrays_list.py %}
 {% endhighlight %}
@@ -60,7 +59,6 @@ For more information on Python arrays, see the [official documentation](http://d
 
 Here is an example of an array:
 
-File: src/python/basic_arrays_array.py
 {% highlight python %}
 {% file python/basic_arrays_array.py %}
 {% endhighlight %}
@@ -74,7 +72,6 @@ There's no "good" way to handle a multidimentional datatype  structure in Python
 
 Here's an example of using embedded lists to create a multitdimentional array:
 
-File: src/python/basic_arrays_multilist.py
 {% highlight python %}
 {% file python/basic_arrays_multilist.py %}
 {% endhighlight %}
@@ -95,7 +92,6 @@ For additional documentation on NumPy arrays, see [this page](http://docs.scipy.
 
 Here is an example of how to use a arrays in NumPy:
 
-File: src/python/basic_arrays_numpy.py
 {% highlight python %}
 {% file python/basic_arrays_numpy.py %}
 {% endhighlight %}
@@ -109,7 +105,6 @@ You will have to have NumPy installed to use this method.
 
 Here is an example of multidimentional arrays in NumPy:
 
-File: src/python/basic_arrays_multinumpy.py
 {% highlight python %}
 {% file python/basic_arrays_multinumpy.py %}
 {% endhighlight %}
@@ -131,14 +126,12 @@ The ability to iterate through an array is a usefull one.  It allows you to quic
 
 In its most basic form, looping through a list looks like this:
 
-File: src/python/basic_arrays_looping1.py
 {% highlight python %}
 {% file python/basic_arrays_looping1.py %}
 {% endhighlight %}
 
 The same output but using an integer as an iterator:
 
-File: src/python/basic_arrays_looping2.py
 {% highlight python %}
 {% file python/basic_arrays_looping2.py %}
 {% endhighlight %}
@@ -151,14 +144,12 @@ Looping through data requires that you embed for loop within each other.  Often,
 
 Here is an example using a NumPy 2D array:
 
-File: src/python/basic_arrays_looping3.py
 {% highlight python %}
 {% file python/basic_arrays_looping3.py %}
 {% endhighlight %}
 
 Here is another example, looping over the same array, except using integers as the iterators:
 
-File: src/python/basic_arrays_looping4.py
 {% highlight python %}
 {% file python/basic_arrays_looping4.py %}
 {% endhighlight %}
@@ -192,7 +183,6 @@ Arrays are implemented quite painlessly in Fortran and follow all of the same ru
 
 Here is an example of a one-dimentional array in Fortran:
 
-File: src/fortran/basic_arrays_1d.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_1d.f95 %}
 {% endhighlight %}
@@ -202,7 +192,6 @@ File: src/fortran/basic_arrays_1d.f95
 
 Fortran does provide an alternative syntax for creating 1D arrays.  Here is an example of it:
 
-File: src/fortran/basic_arrays_1dshort.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_1dshort.f95 %}
 {% endhighlight %}
@@ -214,7 +203,6 @@ In Fortan, multidimentional arrays function virtually identically to one-dimenti
 
 Here is an example of a multidimentional array in Fortran:
 
-File: src/fortran/basic_arrays_multi.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_multi.f95 %}
 {% endhighlight %}
@@ -226,7 +214,6 @@ While Fortran arrays arn't dynamic, they do offer a hint of that convenience in 
 
 Here is an example of an allocatable array in Fortran:
 
-File: src/fortran/basic_arrays_allocatable.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_allocatable.f95 %}
 {% endhighlight %}
@@ -240,7 +227,6 @@ The ability to iterate through an array is a usefull one.  It allows you to quic
 
 Here is an example of looping through a 1D array:
 
-File: src/fortran/basic_arrays_looping1.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_looping1.f95 %}
 {% endhighlight %}
@@ -251,7 +237,6 @@ Looping through 2D data requires that two DO loops be embedded within each other
 
 Here is an example:
 
-File: src/fortran/basic_arrays_looping2.f95
 {% highlight fortran %}
 {% file fortran/basic_arrays_looping2.f95 %}
 {% endhighlight %}

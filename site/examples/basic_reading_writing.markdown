@@ -46,7 +46,6 @@ There are also a number of plugins and libraries for parsing CSV and other commo
 
 This method will read an entire file (including the newline characters) into a single variable.  It's the quickest (in terms of lines of code) way to read in a file but will require the most processing to use the data.
 
-File: src/python/basic_readwrite_wholefile.py
 {% highlight python %}
 {% file python/basic_readwrite_wholefile.py %}
 {% endhighlight %}
@@ -62,7 +61,6 @@ for i in range(len(lines)):
 
 This method reads the file into an array with each element representing a line.  This removes the need for the newline split (as shown in the previous example) but everything else is the same.
 
-File: src/python/basic_readwrite_linebyline.py
 {% highlight python %}
 {% file python/basic_readwrite_linebyline.py %}
 {% endhighlight %}
@@ -78,7 +76,6 @@ for i in range(len(lines)):
 
 This method, like the last one reads a file into an array line-by-line.  However, this method is more efficient.  The efficiency boost only comes in handy if you are processing really large data files.
 
-File: src/python/basic_readwrite_efficient.py
 {% highlight python %}
 {% file python/basic_readwrite_efficient.py %}
 {% endhighlight %}
@@ -104,7 +101,6 @@ Writing datafiles in Python is quite easy.  There's only one method that this tu
 
 Here is a working example of a program that writes data to a file:
 
-File: src/python/basic_readwrite_write.py
 {% highlight python %}
 {% file python/basic_readwrite_write.py %}
 {% endhighlight %}
@@ -116,7 +112,6 @@ File: src/python/basic_readwrite_write.py
 
 Below is the datafile used in all of the above Python examples:
 
-File: src/python/sampledata.txt
 {% highlight text %}
 {% file python/sampledata.txt %}
 {% endhighlight %}
@@ -155,7 +150,6 @@ Read more about formatted input/output [here](http://www.cs.mtu.edu/~shene/COURS
 
 Below is a program that reads a datafile into a multidimentional array:
 
-File: src/fortran/basic_readwrite_read.f95
 {% highlight fortran %}
 {% file fortran/basic_readwrite_read.f95 %}
 {% endhighlight %}
@@ -167,7 +161,6 @@ Writing files in Fortran is very easy and requires no advanced syntax.
 
 Below is an example of how to write a file in Fortran:
 
-File: src/fortran/basic_readwrite_write.f95
 {% highlight fortran %}
 {% file fortran/basic_readwrite_write.f95 %}
 {% endhighlight %}
@@ -179,7 +172,6 @@ File: src/fortran/basic_readwrite_write.f95
 
 The following is the datafile used in the above Fortran 'read' example.  Notice that the first row contains the number of rows of data to read.
 
-File: src/fortran/sampledata.txt
 {% highlight text %}
 {% file fortran/sampledata.txt %}
 {% endhighlight %}

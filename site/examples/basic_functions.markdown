@@ -29,14 +29,12 @@ In Python, functions are declared using the **def** keyword followed by the func
 
 Let's look at a very simple function definition:
 
-File: src/python/basic_functions.py
 {% highlight python %}
 {% file python/basic_functions1.py %}
 {% endhighlight %}
 
 As you can see, it only took 3 lines of code to define and use our function.  Let's example a \[very\] slightly more complicated function that we can actually pass information to.  The following function lets you pass it two numbers, it then adds those numbers together and prints the result:
 
-File: src/python/basic_functions2.py
 {% highlight python %}
 {% file python/basic_functions2.py %}
 {% endhighlight %}
@@ -47,7 +45,6 @@ The **return** keyword allows the function to pass *back* information that you c
 
 The following program has the same output as the 2nd example but retrieves the sum through the return value of *add_nums()*:
 
-File: src/python/basic_functions3.py
 {% highlight python %}
 {% file python/basic_functions3.py %}
 {% endhighlight %}
@@ -56,7 +53,6 @@ Now that we know how to define a function, pass data to the function, and retrie
 
 The following function calculates the [standard deviation](http://en.wikipedia.org/wiki/Standard_deviation) of a list of numbers. **NOTE** that there are different definitions for standard deviation, this is an example of the most common and includes [Bessel's Correction](http://en.wikipedia.org/wiki/Bessel's_correction).
 
-File: src/python/basic_functions4.py
 {% highlight python %}
 {% file python/basic_functions4.py %}
 {% endhighlight %}
@@ -109,7 +105,6 @@ The basic format of a function declaration in Fortran follows the pattern:
 
 Here's an example of a program that prints "Hello World" through a function:
 
-File: src/fortran/basic_functions1.f95
 {% highlight fortran %}
 {% file fortran/basic_functions1.f95 %}
 {% endhighlight %}
@@ -120,7 +115,6 @@ File: src/fortran/basic_functions1.f95
 
 Here is an example of the same function and output except now the function is an external function instead of an internal one.
 
-File: src/fortran/basic_functions2.f95
 {% highlight fortran %}
 {% file fortran/basic_functions2.f95 %}
 {% endhighlight %}
@@ -131,7 +125,6 @@ File: src/fortran/basic_functions2.f95
 
 The following is an example of a program that calculates the [sample standard deviation](http://mathworld.wolfram.com/StandardDeviation.html) of an array of numbers:
 
-File: src/fortran/basic_functions3.f95
 {% highlight fortran %}
 {% file fortran/basic_functions3.f95 %}
 {% endhighlight %}
@@ -155,7 +148,6 @@ Here are *INTENT*'s three options:
 
 The following is an example of a subroutine that calculates the [sample standard deviation](http://mathworld.wolfram.com/StandardDeviation.html) of an array of numbers:
 
-File: src/fortran/basic_functions_subroutine.f95
 {% highlight fortran %}
 {% file fortran/basic_functions_subroutine.f95 %}
 {% endhighlight %}

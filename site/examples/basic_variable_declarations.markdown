@@ -23,7 +23,6 @@ Python is a dynamically typed language which means that you can create new varia
 
 Here's an example of a Python program using different types of variables:
 
-File: src/python/basic_variables.py
 {% highlight python %}
 {% file python/basic_variables.py %}
 {% endhighlight %}
@@ -54,7 +53,6 @@ In Fortran, variables can be one five different types: **INTEGER**, **REAL**, **
 
 Here is an example that demonstrates the use of some common Fortran types:
 
-File: src/fortran/basic_variables.f95
 {% highlight fortran %}
 {% file fortran/basic_variables.f95 %}
 {% endhighlight %}

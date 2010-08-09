@@ -39,7 +39,6 @@ Here is an example of a program that prints out if a number is positive, negativ
 
 **NOTE:** The *raw_input* function is simply a way to accept user input into your program, it is unrelated to the proper function of the control statments.
 
-File: src/python/basic_control.py
 {% highlight python %}
 {% file python/basic_control.py %}
 {% endhighlight %}
@@ -48,7 +47,6 @@ In addition to if/elif/else, Python supports **and** and **or** operations that 
 
 Here is a weak example of how to use them:
 
-File: src/python/basic_control_andor.py
 {% highlight python %}
 {% file python/basic_control_andor.py %}
 {% endhighlight %}
@@ -78,7 +76,6 @@ Some *requirements* that you can impose on your conditionals include:
 
 Here is an example of a program that prints out of a number is positive, negative, or zero:
 
-File: src/fortran/basic_control.f95
 {% highlight fortran %}
 {% file fortran/basic_control.f95 %}
 {% endhighlight %}
@@ -87,7 +84,6 @@ In addition to if/else if/else, Fortran supports **.AND.** and **.OR.** operatio
 
 Here is a weak example of how to use them:
 
-File: src/fortran/basic_control_andor.f95
 {% highlight fortran %}
 {% file fortran/basic_control_andor.f95 %}
 {% endhighlight %}

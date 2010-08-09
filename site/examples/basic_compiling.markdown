@@ -21,7 +21,6 @@ title: Compiling and running your program
 
 Python programs are not compiled, they're *interpreted*.  This means that you can simply run the same file that you write code in.  Here's an example of Python:
 
-File: src/python/basic_running.py
 {% highlight python %}
 {% file python/basic_running.py %}
 {% endhighlight %}
@@ -48,7 +47,6 @@ will produce the output "Hello World!"... no compiling needed..
 
 Fortran 90/95 programs are compiled using either the *g95* or *gfortran* commands.  Here is a program, written in Fortran, that prints "Hello World" two different ways:
 
-File: src/fortran/basic_running.f95
 {% highlight fortran %}
 {% file fortran/basic_running.f95 %}
 {% endhighlight %}
