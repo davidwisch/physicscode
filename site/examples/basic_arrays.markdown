@@ -161,7 +161,26 @@ Here is another example, looping over the same array, except using integers as t
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-*FILL ME OUT*
+C++ section, make general comments here
+
+**Jump To:**
+
+* [One-Dimensional Arrays](#cpp-1d)
+* [Two-Dimensional Arrays](#cpp-2d)
+
+<a name="cpp-1d"></a>
+### One-Dimensional Arrays
+
+1D comments go here.
+
+{% highlight cpp %}
+{% file cpp/basic_arrays_1d.cpp %}
+{% endhighlight %}
+
+<a name="cpp-2d"></a>
+### Two-Dimensional Arrays
+
+2D comments go here.
 
 <a name="fortran"></a>
 ## Fortran
