@@ -24,19 +24,19 @@ All four of our languages support some kind of an array.  Their specific impleme
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-Arrays in Python are very different from their C++ or Fortran counterparts.  Python's implementation of the array is one of the weaker aspects of the language (at least from a computational physics perspective) but can be made to work.  Usually, although Python does have an "array" datatype, array-like behavior is implemented using the 'list' datatype instead.  Multidimentional arrays are an especially weak point in the Python language but an example of a multidimentional structure using embedded lists is provided.
+Arrays in Python are very different from their C++ or Fortran counterparts.  Python's implementation of the array is one of the weaker aspects of the language (at least from a computational physics perspective) but can be made to work.  Usually, although Python does have an "array" datatype, array-like behavior is implemented using the 'list' datatype instead.  Multidimensional arrays are an especially weak point in the Python language but an example of a multidimensional structure using embedded lists is provided.
 
 One positive about Python arrays (all of the implementations) is that they're dynamic which means you can add elements to them at anytime.  In many other languages, without using advanced techniques, after you declare the size of an array, it cannot be changed.
 
-When speed or more flexibility is needed, it is reccomended that you use the [NumPy](http://numpy.scipy.org/) addon package for Python.  It includes a "correct" implementation of arrays and multidimentional arrays (as well as many other physics goodies).  An example using NumPy is also provided.
+When speed or more flexibility is needed, it is reccomended that you use the [NumPy](http://numpy.scipy.org/) addon package for Python.  It includes a "correct" implementation of arrays and multidimensional arrays (as well as many other physics goodies).  An example using NumPy is also provided.
 
 **Jump To:**
 
 * [Python 'list' Type](#python-list)
 * [Python 'array' Type](#python-pythonarray)
-* [Multidimentional Array with Lists](#python-multilist)
+* [Multidimensional Array with Lists](#python-multilist)
 * [NumPy Array](#python-numpy)
-* [NumPy Multidimentional Array](#python-numpymulti)
+* [NumPy Multidimensional Array](#python-numpymulti)
 * [Looping Through Arrays](#python-looping)
 
 <a name="python-list"></a>
@@ -64,13 +64,13 @@ Here is an example of an array:
 {% endhighlight %}
 
 <a name="python-multilist"></a>
-### Multidimentional Arrays with Lists
+### Multidimensional Arrays with Lists
 
-Multidimentaional arrays are usefull when you're storing data that's more complex than a single list of numbers.  For instance, if you wanted to store X,Y coordinates, multidimentional arrays lend themselves to this task quite nicely.
+Multidimentaional arrays are usefull when you're storing data that's more complex than a single list of numbers.  For instance, if you wanted to store X,Y coordinates, multidimensional arrays lend themselves to this task quite nicely.
 
-There's no "good" way to handle a multidimentional datatype  structure in Python without using NumPy.  However, in a pinch, and if your dataset isn't too large, embededded lists can do the trick.
+There's no "good" way to handle a multidimensional datatype  structure in Python without using NumPy.  However, in a pinch, and if your dataset isn't too large, embededded lists can do the trick.
 
-Here's an example of using embedded lists to create a multitdimentional array:
+Here's an example of using embedded lists to create a multidimensional array:
 
 {% highlight python %}
 {% file python/basic_arrays_multilist.py %}
@@ -99,11 +99,11 @@ Here is an example of how to use a arrays in NumPy:
 <a name="python-numpymulti"></a>
 ### NumPy Multidimentaional Array
 
-As explained [above](#python-multilist), multidimentional arrays can be extremly usefull.  The NumPy array library makes creating and using multidimentional arrays much easier than the embedded list method.
+As explained [above](#python-multilist), multidimensional arrays can be extremly usefull.  The NumPy array library makes creating and using multidimensional arrays much easier than the embedded list method.
 
 You will have to have NumPy installed to use this method.
 
-Here is an example of multidimentional arrays in NumPy:
+Here is an example of multidimensional arrays in NumPy:
 
 {% highlight python %}
 {% file python/basic_arrays_multinumpy.py %}
@@ -166,7 +166,7 @@ C++ section, make general comments here
 **Jump To:**
 
 * [One-Dimensional Arrays](#cpp-1d)
-* [Two-Dimensional Arrays](#cpp-2d)
+* [Multidimensional Arrays](#cpp-multi)
 
 <a name="cpp-1d"></a>
 ### One-Dimensional Arrays
@@ -177,10 +177,10 @@ C++ section, make general comments here
 {% file cpp/basic_arrays_1d.cpp %}
 {% endhighlight %}
 
-<a name="cpp-2d"></a>
-### Two-Dimensional Arrays
+<a name="cpp-multi"></a>
+### Multidimensional Arrays
 
-2D comments go here.
+Multidimensional comments go here.
 
 <a name="fortran"></a>
 ## Fortran
@@ -193,14 +193,14 @@ Arrays are implemented quite painlessly in Fortran and follow all of the same ru
 
 * [One-Dimentional Arrays](#fortran-1d)
 * [One-Dimentional Arrays (Short Syntax)](#fortran-1dshort)
-* [Multidimentional Arrays](#fortran-multi)
+* [Multidimensional Arrays](#fortran-multi)
 * [Allocatable Arrays](#fortran-allocatable)
 * [Looping Through Arrays](#fortran-looping)
 
 <a name="fortran-1d"></a>
 ### One-Dimentional Arrays
 
-Here is an example of a one-dimentional array in Fortran:
+Here is an example of a one-dimensional array in Fortran:
 
 {% highlight fortran %}
 {% file fortran/basic_arrays_1d.f95 %}
@@ -216,11 +216,11 @@ Fortran does provide an alternative syntax for creating 1D arrays.  Here is an e
 {% endhighlight %}
 
 <a name="fortran-multi"></a>
-### Multidimentional Arrays
+### Multidimensional Arrays
 
-In Fortan, multidimentional arrays function virtually identically to one-dimentional ones.  They follow the same rules, and similar declaration syntax.
+In Fortan, multidimensional arrays function virtually identically to one-dimensional ones.  They follow the same rules, and similar declaration syntax.
 
-Here is an example of a multidimentional array in Fortran:
+Here is an example of a dimensional array in Fortran:
 
 {% highlight fortran %}
 {% file fortran/basic_arrays_multi.f95 %}
