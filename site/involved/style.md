@@ -102,7 +102,9 @@ Standards in sourcecode are very important, especially when an inexperienced pro
 
 Every program needs to have a comment on the first line of the format:
 
-	File: src/[language]/filename.ext
+{% highlight text %}
+File: src/[language]/filename.ext
+{% endhighlight %}
 
 That is, if a Python program was named "array_multiplier.py*, its first line would be:
 

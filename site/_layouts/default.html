@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/screen.css" />
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
@@ -10,8 +10,7 @@
 		$(document).ready(function(){
 			/* make all external links to open in a new page */
 			$("a").each(function(){
-				if($(this).attr("href") != undefined
-					&& $(this).attr("href").search(/^http/i) != -1){
+				if($(this).attr("href") != undefined && $(this).attr("href").search(/^http/i) != -1){
 					$(this).attr("target", "_blank");
 				}
 			});

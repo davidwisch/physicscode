@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Code Examples
 ---
@@ -31,4 +31,3 @@ This section contains programs that are mashups of the various skills discussed 
 This section contains examples of programs (of varying complexity and topics) that you're likely to encounter in a computational physics curriculum.
 
 * [Sampling a Function](/examples/physics_sampling.html)
-

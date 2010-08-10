@@ -5,7 +5,7 @@ title: Sampling a Function
 
 # Sampling a Function
 
-In many physics programs you may be required to "sample a function".  What this means is to find the value of the function at various values [of its independent variable(s)] and store this data for output (graphing) or some kind of further analysis.
+In many physics programs you may be required to "sample a function".  What this means is to find the value of the function at various values (or its independent variable(s)) and store this data for output (graphing) or some kind of further analysis.
 
 The "Basic Operations" section of [examples](/examples) covers all of the skills needed to sample a function but since it's such a common task, we'll show a complete example here.
 

@@ -140,9 +140,9 @@ The *INTENT* statement is used during a variable declaration to control what can
 
 Here are *INTENT*'s three options:
 
-* **INTENT(IN)** - *read-only. This variable can be read but not written to.
-* **INTENT(OUT)** - *write. This variable is initially undefined but can be written to.
-* **INTENT(INOUT)** - *read/write.  This variable can be read from and written to.
+**INTENT(IN)** - read-only. This variable can be read but not written to.
+**INTENT(OUT)** - write. This variable is initially undefined but can be written to.
+**INTENT(INOUT)** - read/write.  This variable can be read from and written to.
 
 The following is an example of a subroutine that calculates the [sample standard deviation](http://mathworld.wolfram.com/StandardDeviation.html) of an array of numbers:
 

@@ -63,7 +63,7 @@ This example has the same output as example #1 but achieves it through a differe
 {% file python/basic_loops_for3.py %}
 {% endhighlight %}
 
-The *range()* function takes an integer argument and returns a list ([0..24] in the example) of numbers from [0, arg-1].  The *range* function can take arguments besides a single integer, you can read about them [here](http://docs.python.org/library/functions.html#range).
+The *range()* function takes an integer argument and returns a list (\[0..24\] in the example) of numbers from \[0, arg-1\].  The *range* function can take arguments besides a single integer, you can read about them [here](http://docs.python.org/library/functions.html#range).
 
 <a name="python-map"></a>
 ### Mapping
