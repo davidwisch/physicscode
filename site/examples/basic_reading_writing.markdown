@@ -5,9 +5,9 @@ title: Reading and Writing Data Files
 
 # Reading and Writing Data Files
 
-The ability to read data from and write data to text files is extremly important.  It allows you to import existing data to run analysis on it as well as write your own results out (possibly so you can graph them, or for later review).
+The ability to read data from and write data to text files is extremely important.  It allows you to import existing data to run analysis on as well as write your own results out (possibly so you can graph them, or for later review).
 
-All four languages have the ability to read/write data files but they require different levels of understanding to understand why you have to you the syntax that you do.
+All four languages have the ability to read/write data files but they require different levels of complexity to do so.
 
 When reading data from a file, you will have to know the format of the data ahead of time.  Each language has its own method for ingesting data in a particular format.
 
@@ -23,9 +23,9 @@ When reading data from a file, you will have to know the format of the data ahea
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-Reading and writing data files in Python is painless.  See the examples below for further explanation.
+Reading and writing data files in Python is relatively painless.  See the examples below for further explanation.
 
-You can find more about reading and writing files in Python in their [offial documentation](http://docs.python.org/tutorial/inputoutput.html#reading-and-writing-files).
+You can find more about reading and writing files in Python in their [official documentation](http://docs.python.org/tutorial/inputoutput.html#reading-and-writing-files).
 
 **Jump To**
 
@@ -40,7 +40,7 @@ Reading data files in Python is quite easy but there are a number of ways you ca
 
 Below are working and complete examples of how to read data in from a file.
 
-There are also a number of plugins and libraries for parsing CSV and other common data formats.  Those will not be discussed here.
+There are also a number of libraries for parsing CSV and other common data formats but those will not be discussed here.
 
 #### Method #1: The Whole File At Once
 
@@ -92,12 +92,12 @@ with
 lines.append(map(float, line.split(",")))
 {% endhighlight %}
 
-In which case, the casts in the print statment would no longer be required.
+In which case, the casts in the print statement would no longer be required.
 
 <a name="python-writing"></a>
 ### Writing Data Files
 
-Writing datafiles in Python is quite easy.  There's only one method that this tutorial is going to go over.
+Writing data files in Python is quite easy.  There's only one method that this tutorial is going to go over.
 
 Here is a working example of a program that writes data to a file:
 
@@ -140,15 +140,15 @@ Reading data files in Fortran is fairly easy.  However, reading data into an arr
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  The trickery comes from the fact that you need to know the length of the data file (number of lines) in order to define the length of the array that will contain its data.  Common methods for solving this problem include, A) prompting the user the the number of rows of data, and B) using the first row in the datafile to define the number of data-rows.  (B) is what is demonstrated in the following example.
+Reading data files in Fortran is fairly easy.  However, reading data into an array requires some trickery.  The trickery comes from the fact that you need to know the length of the data file (number of lines) in order to define the length of the array that will contain its data.  Common methods for solving this problem include, A) prompting the user for the number of rows of data, and B) using the first row in the datafile to define the number of data-rows.  (B) is what is demonstrated in the following example.
 
-The following example requires that you know, explicitly, the column-format of your data.  Allocatable arrays are used so that we can dynamically set the dimentions of our 'X' array.
+The following example requires that you know, exactly, the column-format of your data.  Allocatable arrays are used so that we can dynamically set the dimensions of our 'X' array.
 
 Read more about allocatable arrays [here](http://wikis.sun.com/display/openmp/Fortran+Allocatable+Arrays).
 
 Read more about formatted input/output [here](http://www.cs.mtu.edu/~shene/COURSES/cs201/NOTES/chap05/format.html).
 
-Below is a program that reads a datafile into a multidimentional array:
+Below is a program that reads a datafile into a multidimensional array:
 
 {% highlight fortran %}
 {% file fortran/basic_readwrite_read.f95 %}
@@ -165,7 +165,7 @@ Below is an example of how to write a file in Fortran:
 {% file fortran/basic_readwrite_write.f95 %}
 {% endhighlight %}
 
-**NOTE:** In Fortran, data is not written to the file on the WRITE() command, data is stored in the buffer until A) the CLOSE() function is called, B) the FLUSH() function is called, or C) the program completes.
+**NOTE:** In Fortran, data is not written to the file on the WRITE() command, data is stored in the buffer until A) the CLOSE() function is called, B) the FLUSH() function is called, or C) the program completes execution.
 
 <a name="fortran-datafile"></a>
 ### Sample Datafile

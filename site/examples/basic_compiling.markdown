@@ -5,7 +5,7 @@ title: Compiling and running your program
 
 # Compiling and Running a program
 
-*Explanation on compiling*
+When you *compile* a program, you tell a program (called a *compiler*) to turn the high-level syntax that you wrote your code in into low level machine language that your computer can execute.
 
 **Choose a language:**
 
@@ -19,19 +19,19 @@ title: Compiling and running your program
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-Python programs are not compiled, they're *interpreted*.  This means that you can simply run the same file that you write code in.  Here's an example of Python:
+Python programs are not actually compiled, they're *interpreted*.  This means that you can simply run the same file that you write code in.  Here's an example of Python:
 
 {% highlight python %}
 {% file python/basic_running.py %}
 {% endhighlight %}
 
-Simply placing that text in a file and running it with:
+Simply placing that text in a file and running it with the command:
 
 {% highlight bash %}
 python basic_running.py
 {% endhighlight %}
 
-will produce the output "Hello World!"... no compiling needed..
+will produce the output "Hello World!"...no compiling needed..
 
 <a name="cpp"></a>
 ## C++
@@ -60,7 +60,7 @@ g95 basic_running.f95
 gfortran basic_running.f95
 {% endhighlight %}
 
-Either of these commands will produce a file named **a.out** (on Windows, **a.exe**).  To run this file, simply type:
+Either of these commands will produce a file named *a.out* (on Windows, *a.exe*).  To run this file, simply type:
 
 {% highlight bash %}
 #In OSX

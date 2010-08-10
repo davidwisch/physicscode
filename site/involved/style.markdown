@@ -5,7 +5,7 @@ title: Style Guide
 
 # Style Guide
 
-Because *Physicscode* is a growing project with multiple collaboraters, there needs to be some uniformity in the way that content and code is written.  This document will try and establish some basic standards that all collaboraters should adhere to.
+Because *Physicscode* is a growing project with multiple collaborators, there needs to be some uniformity in the way that content and code is written.  This document will try and establish some basic standards that all collaborators should adhere to.
 
 There are two basic categories of *Physicscode*, content (the website), and code (the code examples).  Each has their own standards requirements.  See below for more details.
 
@@ -38,11 +38,11 @@ The content of the site means anything that isn't program source code.
 <a name="content-markdown"></a>
 ### Makrdown
 
-*Physicscode* is written primairly in Markdown and we'd like to keep it that way.  In exchange for Markdown's simplicity, it takes away the ability to do any advanced formatting.  It's possible to drop down into HTML within your markdown code but that's messy, you should avaoid doing it.
+*Physicscode* is written primarily in Markdown and we'd like to keep it that way.  In exchange for Markdown's simplicity, it takes away the ability to do any advanced formatting.  It's possible to drop down into HTML within your Markdown code but that's messy, you should avoid doing it.
 
 The rule of thumb is this:  If you can do something in Markdown, do it.  If you can't, think really hard about if the site needs whatever you're looking to add.
 
-We know, We know, there's HTML all over most pages, but for internal links, float breaks, etc. we guess it's okay.  Got to draw the line somewhere I guess.
+We know, We know, there's HTML all over most pages, but for internal links, float breaks, etc... we guess it's okay - got to draw the line somewhere I guess.
 
 **Oh!** Almost forgot.  HTML is fine in the templates (obviously).
 
@@ -56,20 +56,20 @@ The <title></title> block is populated with the content of the 'title:' setting 
 <a name="content-headers"></a>
 ### Section Headers
 
-Markdown makes it easy to drop H1, H2, H3, etc. tags all over your document.  Just throw some "# # #s" and you're good to go right?  Wrong!  The title of your page should be H1 (# in markdown), its subsections should be H2 (## in markdown), it's subsections should be H3, and so on.
+Markdown makes it easy to drop H1, H2, H3, etc. tags all over your document.  Just throw some "# # #s" and you're good to go right?  Wrong!  The title of your page should be H1 (# in Markdown), its subsections should be H2 (## in Markdown), its subsections should be H3, and so on.
 
-Sections should be used to show content heirarchy, not just for creating emphasis.
+Sections should be used to show content hierarchy, not just for creating emphasis.
 
 In *Physicscode*, H2 tags are underlined to create a sense of separation between major sections.
 
 <a name="content-images"></a>
 ### Images
 
-All images should be stored in the physicscode/images directory.  From there you should store them in folder named after the highest level page (in terms of directory heirarchy) that image will appear on.
+All images should be stored in the physicscode/images directory.  From there you should store them in folder named after the highest level page (in terms of directory hierarchy) that image will appear on.
 
 All images should be in the **PNG** format.
 
-All imahes should be imported using the *image* plugin for Jekyll (see [plugins](#plugins) section).
+All images should be imported using the *image* plugin for Jekyll (see [plugins](#plugins) section).
 
 <a name="conrent-plugins"></a>
 ### Content Plugins
@@ -119,9 +119,9 @@ Extensive use of comments can make simple programs difficult to read for beginne
 <a name="code-naming"></a>
 ### Naming
 
-Some people like to name their functions and variables using the CamelCaseMethod of naming.  This is where in string of connected words (no spaces), the first letter of each word is a capitol letter.  Other people separate their words with_understores.  Either one is fine, do whatever feels most comfortable to you, just stay consistent within your own code.
+Some people like to name their functions and variables using the CamelCaseMethod of naming.  This is where in string of connected words (no spaces) the first letter of each word is a capital letter.  Other people separate their words with_understores.  Either one is fine, do whatever feels most comfortable to you, just stay consistent within your own code.
 
-Don't break commonly accepted naming conventions (*eg* don't name a variable 'INTEREST_RATE' (all capitol letters) if you intend to change the value of that variable later).
+Don't break commonly accepted naming conventions (*eg* don't name a variable 'INTEREST_RATE' (all capital letters) if you intend to change the value of that variable later as all-CAPS is usually used to indicate constants).
 
 <a name="code-blocks"></a>
 ### Curly Braces
@@ -150,9 +150,9 @@ Either one is fine, just make sure your code is self-consistent
 <a name="code-spacing"></a>
 ### Spacing
 
-Spacing can mean a few things.  Let's start of with tabs vs. spaces.  It doens't matter, use whatever you want.  However, please use a tab width of 4 spaces.
+Spacing can mean a few things.  Let's start of with tabs vs. spaces.  It doesn't matter, use whatever you want.  However, please use a tab width of 4 spaces.
 
-Onto the other meaning uses of spaces.  Put spaces in between arithmatic operators, after commas, etc.  This makes code easier to read.
+Onto the other meaning uses of spaces.  Put spaces in between arithmetic operators, after commas, etc.  This makes code easier to read.
 
 Here's some examples of this:
 
@@ -170,14 +170,14 @@ list=[item1,item2,item3] # Bad
 
 **Don't** however, put extra spaces in between things *willy-nilly*, at a certain point it gets distracting.
 
-Here's an example from order of operations problems.  When doing work with long strings with many "()" its usually better to break the operation up onto multiple lines.  However, if you do end up putting the whole string on one line, things can get ugly, even worse than how they started.  Take a look:
+Here's an example dealing with order of operations.  When doing work with long strings with many "()" its usually better to break the operation up onto multiple lines.  However, if you do end up putting the whole string on one line, things can get ugly.  When lots of spaces are added to long strings, things can get worse.  Take a look:
 
 {% highlight python %}
 num = ((2/4*(5-3)**(2/3.4+(4*2))/4**2)/4)**7.2 # Ugly no matter what
 num = ( ( 2 / 4 * ( 5 - 3 ) ** ( 2 / 3.4 + ( 4 * 2 ) ) / 4 ** 2 ) / 4 ) ** 7.2 # Even worse!
 {% endhighlight %}
 
-**Yes** you will see that from time to time in code.  Somtimes spaces are good, sometimes they can make a situation completely unreadable.  Use some discresion but always make sure you're self consistent.
+Sometimes spaces are good, sometimes they can make a situation completely unreadable.  Use some discretion but always make sure you're self consistent.
 
 <a name="code-newlines"></a>
 ### Line Endings
@@ -194,7 +194,7 @@ Don't use any builtin function without explaining what it does (unless it's alre
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-*Physicscode* has wrritten some custom plugins and behaviors to make our site function better.
+*Physicscode* has written some custom plugins and behaviors to make our site function better.
 
 ### Jekyll Plugins
 
@@ -202,11 +202,11 @@ There are three plugins that *Physicscode* wrote to extend the default behavior 
 
 #### image
 
-The *image* plugin adds a [Liquid](http://www.liquidmarkup.org/) tag to Jekyll that automakes image insertion.  This was written A) so that less HTML would have to be embedded into the Markup documents and B) make it easier for developers to stay within standards.
+The *image* plugin adds a [Liquid](http://www.liquidmarkup.org/) tag to Jekyll that automates image insertion.  This was written A) so that less HTML would have to be embedded into the Markup documents and B) make it easier for developers to stay within standards.
 
 The plugin assumes that **ALL** images reside somewhere in the physicscode/site/images directory and assumes they have a file extension **.png**.
 
-To use the plugin, use a the following syntax.
+To use the plugin, use the following syntax:
 
 &#123;% image funny/lolcat %&#125;
 
@@ -216,7 +216,7 @@ That line would insert the following HTML into the page.
 <img src="/images/funny/lolcat.png"/>
 {% endhighlight %}
 
-Note how it appended the *.png* exrension and prefixed the path with */images/*.
+Note how the plugin appended the *.png* extension and prefixed the path with */images/*.
 
 Use this plugin to insert an image into a page.
 
@@ -226,9 +226,9 @@ Use this plugin to insert an image into a page.
 
 #### file
 
-The *file* plugin is used to import sourcecode files into a makrdown documents.  We wanted an ability to display people sourcecode in the browser but not require them to copy/paste code from their sample programs into the makrdown document.  The *file* plugin, at build time, reads a file, and returns its contents as a string into the markdown document.  Surround the *file* call with &#123;% highlight [language] %&#125; [code] &#123;% endhighlight %&#125; tags for syntax highlighting of the file.
+The *file* plugin is used to import sourcecode files into a Markdown documents.  We wanted an ability to display peoples' sourcecode in the browser but not require them to copy/paste code from their sample programs into the Markdown document.  The *file* plugin, at build time, reads a file, and returns its contents as a string into the Markdown document.  Surround the *file* call with &#123;% highlight [language] %&#125; [code] &#123;% endhighlight %&#125; tags for syntax highlighting of the file.
 
-This plugin asumes that all sourcecode is contained within the physicscode/src directory.  Place code in whatever subfolder matches the files language.
+This plugin assumes that all sourcecode is contained within the physicscode/src directory.  Place code in whatever subfolder matches the files language.
 
 Here's an example of importing and highlighting one Python and one Fortran file:
 
@@ -249,6 +249,6 @@ The *commit_hash* plugin finds and returns the hash of the current version's com
 
 ### Javascript Actions
 
-While this is not a plugin, it's a behavior worth mentioning.  When a link is generate in markdown, by default, following it will open the link in the current window/tab.  Since most external links in *Physicscode* are for reference, it makes more sense to have external links open in a new window/tab.
+While this is not a plugin, it's a behavior worth mentioning.  When a link is generated in Markdown, by default, following it will open the link in the current window/tab.  Since most external links in *Physicscode* are for reference, it makes more sense to have external links open in a new window/tab.
 
-There's a bit of jQuery code at the top of the *default.html* template that scans all of the links on a page, checks if they have an http: prefix (because internal links don't) and if they do add the arrtibute *target="_blank"* thus causing the link to open in a new window/tab.
+There's a bit of jQuery code at the top of the *default.html* template that scans all of the links on a page, checks if they have an *http:* prefix (because internal links don't) and if they do add the attribute *target="_blank"* thus causing the link to open in a new window/tab.

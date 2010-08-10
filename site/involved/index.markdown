@@ -9,7 +9,7 @@ title: Getting Involved
 
 *Physicscode* is a completely open source project and everyone is welcome (and encouraged!) to contribute.  We're looking for people help us expand our content, improve our code, design our site, and even help fix our spelling and grammar errors.
 
-To help you get involved we suggust that you read the following sections in the order that they're listed:
+To help you get involved we suggest that you read the following sections in the order that they're listed:
 
 **Jump to:**
 
@@ -20,24 +20,24 @@ To help you get involved we suggust that you read the following sections in the 
 * [Hacking the Code](#hacking)
 * [Submitting your Changes](#submitting)
 
-**NOTE:** It is also reccomended that you read the [Style Guide](/involved/style.html) before submitting any changes to make sure that your changes are compatible.
+**NOTE:** It is also recommended that you read the [Style Guide](/involved/style.html) before submitting any changes to make sure that your changes are compatible.
 
 <a name="technology"></a>
 ## Technology
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-We've worked very hard to keep the technology behind *Physicscode* simple and straightforward.  We want people to be able to contribute quickly and with as little a learning curve as possible.  That being said, there are a few technologies that you'll need to become framiliar with.
+We've worked very hard to keep the technology behind *Physicscode* simple and straightforward.  We want people to be able to contribute quickly and with as little a learning curve as possible.  That being said, there are a few technologies that you'll need to become familiar with.
 
 ### Need to Know
 
-* **git** - [Git](http://git-scm.com) is a version control system that we use to keep track of all of our code.  It has a slight learning curve but is an absolutly essential tool when contributing to *Physicscode*.  Awesome tutorials can be found [here](http://help.github.com/), [here](http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html), [here](http://help.github.com/forking/), and [here](http://progit.org/).
+* **git** - [Git](http://git-scm.com) is a version control system that we use to keep track of all of our code.  It has a slight learning curve but is an absolutely essential tool when contributing to *Physicscode*.  Awesome tutorials can be found [here](http://help.github.com/), [here](http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html), [here](http://help.github.com/forking/), and [here](http://progit.org/).
 
-* **GitHub** -  [GitHub](http://github.com) hosts all of the code that powers *Physicscode*.  This is where all of the contributers submit their code, discuss new features, manage todo lists, etc.  If you're serious about contributing to *Physicscode*, you should create a GitHub account and become framilar with git and the GitHub interface.
+* **GitHub** -  [GitHub](http://github.com) hosts all of the code that powers *Physicscode*.  This is where all of the contributers submit their code, discuss new features, manage to-do lists, etc.  If you're serious about contributing to *Physicscode*, you should create a GitHub account and become familiar with git and the GitHub interface.
 
-* **Jekyll** - [Jekyll](http://jekyllrb.com) is a static site generator.  We don't directly write *Physicscode* in HTML.  Instead we write our content in Markdown (see next bullet) and let Jekyll build the HTML for us.  Jekyll lets us write our content simply, efficiently use templates to control look & feel, and perform pesudo-dynamic operations without requring us actually write the site in a dynamic language.
+* **Jekyll** - [Jekyll](http://jekyllrb.com) is a static site generator.  We don't directly write *Physicscode* in HTML.  Instead we write our content in Markdown (see next bullet) and let Jekyll build the HTML for us.  Jekyll lets us write our content simply, efficiently use templates to control look & feel, and perform pseudo-dynamic operations without requiring us actually write the site in a dynamic language.
 
-* **Markdown** - [Markdown](http://daringfireball.net/projects/markdow) is a text-to-HTML conversion tool.  We write all of our [non source code] content in Markdown then let Jekyll transform the Markdown into standard HTML.  Markdown is exceptionally simple to learn and makes writing content for simple websites as easy as writing any word document (maybe even easier!).
+* **Markdown** - [Markdown](http://daringfireball.net/projects/markdown) is a text-to-HTML conversion tool.  We write all of our [non source code] content in Markdown then let Jekyll transform the Markdown into standard HTML.  Markdown is exceptionally simple to learn and makes writing content for simple websites as easy as writing any word document (maybe even easier!).
 
 ### Nice to Know
 
@@ -45,16 +45,16 @@ While the following technologies are used in parts of *Physicscode* they are not
 
 * **HTML** - [HTML]() is the markup language behind most of the internet.  Even though we [mostly] don't mix HTML and our [Markdown](http://daringfireball.net/projects/markdown/) code, HTML is still used to write our templates and provide some additional functionality that isn't supported within Markdown.  Besides, if you're going to be writing websites of any kind, you should know HTML.
 
-* **Ruby** - [Ruby](http://www.ruby-lang.org) is a dynamic programming language that's similar to Python.  While Ruby is not a language that we use when writing our code examples, it is the language that powers certain parts of *Physicscode*.  All of our [Jekyll](http://jekyllrb.com) [plugins](/involved/style.html#plugins) are written in Ruby, part of our deploy process is written in Ruby, and infact even Jekyll itself is written in Ruby (although not by us).
+* **Ruby** - [Ruby](http://www.ruby-lang.org) is a dynamic programming language that's similar to Python.  While Ruby is not a language that we use when writing our code examples, it is the language that powers certain parts of *Physicscode*.  All of our [Jekyll](http://jekyllrb.com) [plugins](/involved/style.html#plugins) are written in Ruby, part of our deploy process is written in Ruby, and in fact even Jekyll itself is written in Ruby (although not by us).
 
-* **Javascript/jQuery** - [jQuery](http://jquery.com/) while used as little as possible (not because we don't like it but because we want to keep the site simpe) still provides some additional dynamic functionality in various places throughout *Physicscode*.
+* **Javascript/jQuery** - [jQuery](http://jquery.com/) while used as little as possible (not because we don't like it but because we want to keep the site simple) still provides some additional dynamic functionality in various places throughout *Physicscode*.
 
 <a name="installing"></a>
 ## Installing the Software
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-The bare minimum that you'll need to install before building *Physicscode* is: [Git](http://git-scm.com), [Ruby](http://www.ruby-lang.org), [Jekyll](http://jekyllrb.com), [Python](http://python.org), and the [Pygments](http://pygments.org/) package for Python.  Also, to be completely compatable, you'll need to install the rdiscount gem for ruby (see below).
+The bare minimum that you'll need to install before building *Physicscode* is: [Git](http://git-scm.com), [Ruby](http://www.ruby-lang.org), [Jekyll](http://jekyllrb.com), [Python](http://python.org), and the [Pygments](http://pygments.org/) package for Python.  Also, to be completely compatible, you'll need to install the rdiscount gem for ruby (see below).
 
 **Jump to:**
 
@@ -244,7 +244,7 @@ sudo apt-get install python-pygments
 <a name="installing-ubuntu-rdiscount"></a>
 #### rdiscount gem on Ubuntu
 
-Installing the rdiscount gem in Ubuntu is a one line command.  Install using the folowing command:
+Installing the rdiscount gem in Ubuntu is a one line command.  Install using the following command:
 
 {% highlight bash %}
 gem install rdiscount
@@ -268,12 +268,12 @@ git clone git://github.com/davidwisch/physicscode.git
 
 ##### Look and touch
 
-If you want a copy of the sourcecode so that you can edit it and contribute changes, you should fork the *Physicscode* project.  GitHub has a great guide to forking repositories [here](http://help.github.com/forking/).
+If you want a copy of the source code so that you can edit it and contribute changes, you should fork the *Physicscode* project.  GitHub has a great guide to forking repositories [here](http://help.github.com/forking/).
 
 <a name="building"></a>
 ## Building the Site
 
-Now that you have the code downloaded and all of the dependances installed it's time to build the site.  Change directories into the physicscode/site directory.  This is the directory that you must launch Jekyll from in order for the site to correctly build.
+Now that you have the code downloaded and all of the dependences installed, it's time to build the site.  Change directories into the physicscode/site directory.  This is the directory that you must launch Jekyll from in order for the site to correctly build.
 
 Once in the directory, run the following from the command line to build the site:
 
@@ -283,7 +283,7 @@ jekyll --server
 
 **NOTE:** The *--server* flag hosts the site on port 4000 so to see the site you'll have to navigate to [http://localhost:4000](http://localhost:4000).  We're using the server option because opening the site from the generated HTML files (located in physicscode/_site after the build) causes internal links not to function properly.
 
-Everytime you change a file you'll have to stop the Jekyll process (*CTRL-C*) and restart it.  Alternativly, you could specify the *--auto* flag to have it automatically detect file changes.  Here is an example:
+Every time you change a file you'll have to stop the Jekyll process (*CTRL-C*) and restart it.  Alternatively, you could specify the *--auto* flag to have it automatically detect file changes and reload the server.  Here is an example:
 
 {% highlight bash %}
 jekyll --server --auto
@@ -291,7 +291,7 @@ jekyll --server --auto
 
 Use *CTRL-C* to end this jekyll process.
 
-**NOTE:** You should read the [Style Guide](/involved/style.html) before chancing any part of the site to make sure taht your changes will be allowed.
+**NOTE:** You should read the [Style Guide](/involved/style.html) before changing any part of the site to make sure that your changes will be allowed.
 
 **NOTE:** *Physicscode* uses some custom plugins to extend the native capabilities of Jekyll and some Javascript to change the default behavior of links generated in Markdown.  Read about these on the [style](/involved/style.html#plugins) page.
 
@@ -300,9 +300,9 @@ Use *CTRL-C* to end this jekyll process.
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-Now that you have a local copy of the *Physicscode* repository, feel free to start editing whatever you'd like.  This [git tutorial](http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html) and the [forking guide](http://help.github.com/forking/) on github have good tips on how to use git effectivly.
+Now that you have a local copy of the *Physicscode* repository, feel free to start editing whatever you'd like.  This [git tutorial](http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html) and the [forking guide](http://help.github.com/forking/) on GitHub have good tips on how to use git effectively.
 
-**NOTE:** You should read the [Style Guide](/involved/style.html) before chancing any part of the site to make sure taht your changes will be allowed.
+**NOTE:** You should read the [Style Guide](/involved/style.html) before chancing any part of the site to make sure that your changes will be allowed.
 
 **NOTE:** *Physicscode* uses some custom plugins to extend the native capabilities of Jekyll and some Javascript to change the default behavior of links generated in Markdown.  Read about these on the [style](/involved/style.html#plugins) page.
 

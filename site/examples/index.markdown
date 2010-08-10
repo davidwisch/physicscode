@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Code Examples
 ---
@@ -9,7 +9,7 @@ title: Code Examples
 
 This section contains code examples outlining basic operations that many programs will require.  Every programmer should be able to do these basic things.
 
-While the guides below do not strictly require the previous ones if you're new to programming it's highly reccomended that you read them in the order presented.
+While the guides do not *need* to be read in order, if you're new to programming it's highly recommended that you read them in the order that they're presented.
 
 1. [Compiling/Running a program](/examples/basic_compiling.html)
 2. [Declaring variables](/examples/basic_variable_declarations.html)
@@ -22,13 +22,13 @@ While the guides below do not strictly require the previous ones if you're new t
 
 ## Putting it all Together
 
-This section contains programs that are mashups of the various skills discussed in the "Basic Operations" section.  Programs are of the type that you may be required to write for an assignment.
+This section contains programs that are mashups of the various skills discussed in the "Basic Operations" section.  Programs are all physics related and resemble the type of problems that you may be asked to solve on an assignment.
 
 * [An Interesting Function](/examples/putting_interesting.html)
 
 ## Physics
 
-This section contains examples of programs (of varying complexity and topics) that you're likely to see in a computational physics program.
+This section contains examples of programs (of varying complexity and topics) that you're likely to encounter in a computational physics curriculum.
 
 * [Sampling a Function](/examples/physics_sampling.html)
 

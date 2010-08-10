@@ -5,11 +5,11 @@ title: Working with Arrays
 
 # Working with Arrays
 
-Arrays are incredibly usefull for storing generated or related data.  Arrays are easy to comprehend if you think of them as lists of related data.  Also, they closely resemble matricies from mathematics.
+Arrays are incredibly useful for storing generated or related data.  Arrays are easy to comprehend if you think of them as lists of related data.  Also, they can be thought of as mathematical matrices.
 
-For example, in a simulation of a skater on ice, you may want to keep track of their position and velocity over the duration of the simulation.  Declaring many variables to store this information is silly when instead you can store everything you need in an array.
+For example, in a simulation of a skater on ice, you may want to keep track of their position and velocity over the duration of the simulation.  Declaring many variables to store this information is silly when instead you can store everything you need in a single array.
 
-All four of our languages support some kind of an array.  Their specific implementations are quite different, however.
+All four of our languages support some kind of an array.  However, their specific implementations are quite different.
 
 **Choose a language:**
 
@@ -24,11 +24,11 @@ All four of our languages support some kind of an array.  Their specific impleme
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-Arrays in Python are very different from their C++ or Fortran counterparts.  Python's implementation of the array is one of the weaker aspects of the language (at least from a computational physics perspective) but can be made to work.  Usually, although Python does have an "array" datatype, array-like behavior is implemented using the 'list' datatype instead.  Multidimensional arrays are an especially weak point in the Python language but an example of a multidimensional structure using embedded lists is provided.
+Arrays in Python are very different from their C++ or Fortran counterparts.  Python's implementation of the array is one of the weaker aspects of the language (at least from a computational physics perspective) but can be made to work.  Usually, although Python does have an "array" data type, array-like behavior is implemented using the 'list' type instead.  Multidimensional arrays are an especially weak point in the Python language but an example of a multidimensional structure using embedded lists is provided.
 
-One positive about Python arrays (all of the implementations) is that they're dynamic which means you can add elements to them at anytime.  In many other languages, without using advanced techniques, after you declare the size of an array, it cannot be changed.
+One positive about Python arrays (all of the implementations) is that they're dynamic which means you can add elements to them at anytime without worrying about length restrictions.  In many other languages, without using advanced techniques, after you declare the size of an array, that size cannot be changed.
 
-When speed or more flexibility is needed, it is reccomended that you use the [NumPy](http://numpy.scipy.org/) addon package for Python.  It includes a "correct" implementation of arrays and multidimensional arrays (as well as many other physics goodies).  An example using NumPy is also provided.
+When speed or more flexibility is needed, it is *highly* recommended that you use the [NumPy](http://numpy.scipy.org/) package for Python.  It includes a "correct" implementation of arrays and multidimensional arrays (as well as many other physics goodies).  An example using NumPy is also provided.
 
 **Jump To:**
 
@@ -42,7 +42,7 @@ When speed or more flexibility is needed, it is reccomended that you use the [Nu
 <a name="python-list"></a>
 ### The Python 'list' Type
 
-This method of storing 1D data works well for relativly small data sets (< 10000 items).  You should use [NumPy](#python-numpy) for larger data sets.
+This method of storing 1D data works well for relatively small data sets (approx < 10000 items, depending what you're doing with the data).  You should use [NumPy](#python-numpy) for larger data sets.
 
 Here is an example of a list:
 
@@ -66,9 +66,9 @@ Here is an example of an array:
 <a name="python-multilist"></a>
 ### Multidimensional Arrays with Lists
 
-Multidimentaional arrays are usefull when you're storing data that's more complex than a single list of numbers.  For instance, if you wanted to store X,Y coordinates, multidimensional arrays lend themselves to this task quite nicely.
+Multidimensional arrays are useful when you're storing data that's more complex than a single list of numbers.  For instance, if you wanted to store X, and Y coordinates, multidimensional arrays what you should use.
 
-There's no "good" way to handle a multidimensional datatype  structure in Python without using NumPy.  However, in a pinch, and if your dataset isn't too large, embededded lists can do the trick.
+There's no "good" way to handle a multidimensional data type structure in Python without using NumPy.  However, in a pinch, and if your dataset isn't too large, embedded lists can do the trick.
 
 Here's an example of using embedded lists to create a multidimensional array:
 
@@ -97,9 +97,9 @@ Here is an example of how to use a arrays in NumPy:
 {% endhighlight %}
 
 <a name="python-numpymulti"></a>
-### NumPy Multidimentaional Array
+### NumPy Multidimensional Array
 
-As explained [above](#python-multilist), multidimensional arrays can be extremly usefull.  The NumPy array library makes creating and using multidimensional arrays much easier than the embedded list method.
+As explained [above](#python-multilist), multidimensional arrays can be extremely useful.  The NumPy array library makes creating and using multidimensional arrays much easier than the embedded list method.
 
 You will have to have NumPy installed to use this method.
 
@@ -120,7 +120,7 @@ arr2D = numpy.zeros((4,4))
 <a name="python-looping"></a>
 ### Looping Through Arrays
 
-The ability to iterate through an array is a usefull one.  It allows you to quickly and efficiently traverse your data for analysis, sorting, or simply just for access.  The syntax for iterating in Python is fairly standard regardless if you're looping through a Python list, array, or numpy array.  An example of looking at 2D data is also provided.
+The ability to iterate through an array is a useful one.  It allows you to quickly traverse your data for analysis, sorting, or simply just for access.  The syntax for iterating in Python is fairly standard regardless if you're looping through a Python list, array, or numpy array.  An example of looking at 2D data is also provided.
 
 #### 1D Data
 
@@ -140,7 +140,7 @@ The same output but using an integer as an iterator:
 
 #### 2D Data
 
-Looping through data requires that you embed for loop within each other.  Often, when dealing with 2D data, it is more convinient to loop using the 'traditional' method (using an integer as an iterator) since we have numerical indicies corresponding to every value.  An example of the "Pythonic way" as well as the "traditional" way are shown:
+Looping through data requires that you embed for loops within each other.  Often, when dealing with 2D data, it is more convenient to loop using the 'traditional' method (using an integer as an iterator) since we have numerical indices corresponding to every value.  An example of the "Pythonic way" as well as the "traditional" way are shown:
 
 Here is an example using a NumPy 2D array:
 
@@ -198,7 +198,7 @@ Arrays are implemented quite painlessly in Fortran and follow all of the same ru
 * [Looping Through Arrays](#fortran-looping)
 
 <a name="fortran-1d"></a>
-### One-Dimentional Arrays
+### One-Dimensional Arrays
 
 Here is an example of a one-dimensional array in Fortran:
 
@@ -207,7 +207,7 @@ Here is an example of a one-dimensional array in Fortran:
 {% endhighlight %}
 
 <a name="fortran-1dshort"></a>
-### One-Dimentional Arrays (Short Syntax)
+### One-Dimensional Arrays (Short Syntax)
 
 Fortran does provide an alternative syntax for creating 1D arrays.  Here is an example of it:
 
@@ -218,7 +218,7 @@ Fortran does provide an alternative syntax for creating 1D arrays.  Here is an e
 <a name="fortran-multi"></a>
 ### Multidimensional Arrays
 
-In Fortan, multidimensional arrays function virtually identically to one-dimensional ones.  They follow the same rules, and similar declaration syntax.
+In Fortran, multidimensional arrays function virtually identically to one-dimensional ones.  They follow the same rules, and similar declaration syntax.
 
 Here is an example of a dimensional array in Fortran:
 
@@ -229,7 +229,7 @@ Here is an example of a dimensional array in Fortran:
 <a name="fortran-allocatable"></a>
 ### Allocatable Arrays
 
-While Fortran arrays arn't dynamic, they do offer a hint of that convenience in the form of allocatable arrays.  With an allocatable array you can declare an array without specifying its size until later in the code.  You can only specify the size once (you cannot re-allocate an array), but this makes some tasks much easier.
+While Fortran arrays aren't dynamic, they do offer a hint of that convenience in the form of *allocatable arrays*.  With an allocatable array you can declare an array without specifying its size until later in the code.  You can only specify the size once (you cannot re-allocate an array), but this makes some tasks much easier.
 
 Here is an example of an allocatable array in Fortran:
 
@@ -240,7 +240,7 @@ Here is an example of an allocatable array in Fortran:
 <a name="fortran-looping"></a>
 ### Looping Through Arrays
 
-The ability to iterate through an array is a usefull one.  It allows you to quickly and efficiently traverse your data for analysis, sorting, or simply just for access.  The syntac for looping throughh data in Fortran is straightforward and concise. Examples for looping through 1D and 2D data are provided.
+The ability to iterate through an array is a useful one.  It allows you to quickly traverse your data for analysis, sorting, or simply just for access.  The syntax for looping through data in Fortran is straightforward and concise. Examples for looping through 1D and 2D data are provided.
 
 #### 1D Data
 

@@ -33,17 +33,17 @@ If instead you see, "'g95' is not recognized as an internal or external command.
 2. Select 'Properties'
 3. Select the 'Advanced' tab
 4. Click the 'Environment Variables' button
-5. In the 'System Variables' section, findn PATH and click the 'Edit' button
+5. In the 'System Variables' section, find PATH and click the 'Edit' button
 6. After the text in the user 'Variable value' box, put the following: C:\$G95_HOME\bin (where $G95_HOME is where you installed G95 (usually the same place you downloaded it if you accept all of the defaults)).
 
-If you downloaded G95 to your Desktop and installed it there, the text to appent to your PATH is:
+If you downloaded G95 to your Desktop and installed it there, the text to append to your PATH is:
 
 * **Windows XP**: C:\Documents and Settings\\\[username\]\Desktop\g95\bin
 * **Windows Vista/7**: C:\Users\\\[username\]\Desktop\g95\bin
 
 where \[username\] should be replaced with *your* username.
 
-You should now be ready to use G95 to complile your Fortran 90/95 files.
+You should now be ready to use G95 to compile your Fortran 90/95 files.
 
 <a name="osx-install"></a>
 ##  Apple OSX

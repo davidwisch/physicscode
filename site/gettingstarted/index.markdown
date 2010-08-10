@@ -5,7 +5,7 @@ title: Getting Started
 
 # Getting Started
 
-This guide provides examples of coding techniques usefull in an undergraduate physics program.  This guide is officially supports three programming laguages ([Python](http://www.python.org/), [C++](http://en.wikipedia.org/wiki/C%2B%2B), and [Fortran (90/95)](http://en.wikipedia.org/wiki/Fortran)) as well as [Mathematica](http://www.wolfram.com/).  You will need to install one of these in order to effectivly use the examples in thie guide.  See the pages below for help.
+This guide provides examples of coding techniques useful in an undergraduate physics program.  This guide is officially supports three programming languages ([Python](http://www.python.org/), [C++](http://en.wikipedia.org/wiki/C%2B%2B), and [Fortran (90/95)](http://en.wikipedia.org/wiki/Fortran)) as well as [Mathematica](http://www.wolfram.com/).  You will need to install one of these in order to effectively use the examples in this guide.  See the pages below for help.
 
 ## Python
 [http://www.python.org](http://www.python.org)
@@ -37,4 +37,4 @@ Fortran has roots that go as far back as the 1950's.  It has a strong history wi
 ## Mathematica
 [http://www.wolfram.com](http://www.wolfram.com)
 
-Mathematica is a computational software program developed by Wolfram Research.  Mathematica is proprietary software and thus cannot be freely aquired.  Talk to your system administrator or refer to the [Wolfram](http://www.wolfram.com/) website for assistance aquiring and installing Mathematica.
+Mathematica is a computational software program developed by Wolfram Research.  Mathematica is proprietary software and thus cannot be freely acquired.  Talk to your system administrator or refer to the [Wolfram](http://www.wolfram.com/) website for assistance acquiring and installing Mathematica.

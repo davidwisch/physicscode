@@ -35,7 +35,7 @@ If instead you see, "'python' is not recognized as an internal or external comma
 2. Select 'Properties'
 3. Select the 'Advanced' tab
 4. Click the 'Environment Variables' button
-5. In the 'System Variables' section, findn PATH and click the 'Edit' button
+5. In the 'System Variables' section, find PATH and click the 'Edit' button
 6. After the text in the user 'Variable value' box, put the following: C:\Python27
 
 You may need to Logout/Login before the changes take effect.  You should now be ready to use Python.
@@ -48,7 +48,7 @@ You're in luck!  Python already is installed on your system.  If you'd like to i
 <a name="ubuntu-install"></a>
 ##Ubuntu Linux
 
-You're in luck!  Python should already be installed on your system.  Incase it isn't, simply run:
+You're in luck!  Python should already be installed on your system.  In case it isn't, simply run:
 
 {% highlight bash %}
 sudo apt-get install python
