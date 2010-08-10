@@ -6,7 +6,7 @@ module Jekyll
 		end
 
 		def render(context)
-			"<img src=\"/images/#{@src}.png\" />"
+			"<div class=\"center\"><img src=\"/images/#{@src}.png\" /></div>"
 		end
 	end
 end
