@@ -26,7 +26,7 @@ The following program samples the function *cos(x<sup>2</sup>)* 1000 times in th
 The following example shows how to sample a function in Python, store the data in an array, and print the data to the screen.
 
 {% highlight python %}
-{% file python/physics_sampling.py %}
+{% file python/putting_sampling.py %}
 {% endhighlight %}
 
 **NOTE** that in this case, defining a custom function to find the value of *cos(x<sup>2</sup>)* didn't provide us with a significant advantage over just hardcoding the function into the loop.  However, as functions become more complex and take additional parameters, custom function definitions provide an increased advantage.  It is good practice to use them.
@@ -46,7 +46,7 @@ The following example shows how to sample a function in Python, store the data i
 The following example shows how to sample a function in Fortran, store the data in an array, and print the data to the screen.
 
 {% highlight fortran %}
-{% file fortran/physics_sampling.f95 %}
+{% file fortran/putting_sampling.f95 %}
 {% endhighlight %}
 
 **NOTE** that in this case, defining a custom function to find the value of *cos(x<sup>2</sup>)* didn't provide us with a significant advantage over just hardcoding the function into the loop.  However, as functions become more complex and take additional parameters, custom function definitions provide an increased advantage.  It is good practice to use them.

@@ -1,4 +1,4 @@
-! File: src/fortran/physics_sampling.f95
+! File: src/fortran/putting_sampling.f95
 
 ! Samples cos(x^2) 1000 times storing the data in an array then printing it out
 

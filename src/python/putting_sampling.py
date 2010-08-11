@@ -1,4 +1,4 @@
-# File: src/python/physics_sampling.py
+# File: src/python/putting_sampling.py
 
 # Samples cos(x^2) 1000 times storing the data in an array then printing it out
 
