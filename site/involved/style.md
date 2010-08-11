@@ -147,7 +147,7 @@ function name(args)
 }
 {% endhighlight %}
 
-Either one is fine, just make sure your code is self-consistent
+Either one is fine, just make sure your code is self-consistent.
 
 <a name="code-spacing"></a>
 ### Spacing

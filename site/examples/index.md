@@ -24,10 +24,10 @@ While the guides do not *need* to be read in order, if you're new to programming
 
 This section contains programs that are mashups of the various skills discussed in the "Basic Operations" section.  Programs are all physics related and resemble the type of problems that you may be asked to solve on an assignment.
 
+* [Sampling a Function](/examples/putting_sampling.html)
 * [An Interesting Function](/examples/putting_interesting.html)
 
 ## Physics
 
 This section contains examples of programs (of varying complexity and topics) that you're likely to encounter in a computational physics curriculum.
 
-* [Sampling a Function](/examples/physics_sampling.html)
