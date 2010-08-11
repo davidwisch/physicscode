@@ -1,7 +1,19 @@
 body {
 	margin: 0;
-	font-family: 'Lucida Grande', Verdana, Geneva, sans-serif;
-	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	color: #2b7da3;
+}
+
+a:visited {
+	color: #2b7da3;
+}
+
+h1, h2, h3, h4, h5, b, strong {
+	color: #3d3d3d;
 }
 
 h2 {
@@ -22,7 +34,7 @@ h2 {
 
 #page-title a.main, a.main:visited {
 	color: #E13300;
-	font-size: 24px;
+	font-size: 26px;
 	text-decoration: none;
 }
 
