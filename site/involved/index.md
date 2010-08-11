@@ -311,7 +311,7 @@ Now that you have a local copy of the *Physicscode* repository, feel free to sta
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-When you've completed a change that you think is ready for *Physicscode.org* you'll need to *push* the changes to your fork in GitHub.  Then, once your changes have been pushed, click the "Pull Request" in your forked repository (see image below).  Make sure at least one [maintainers]() is selected, describe your changes and click "Send Pull Request" (see image below).  That's it!  A maintainer will review your changes and merge them into the live site if they're ready!
+When you've completed a change that you think is ready for *Physicscode.org* you'll need to *push* the changes to your fork in GitHub.  Then, once your changes have been pushed, click the "Pull Request" in your forked repository (see image below).  Make sure at least one maintainers is selected, describe your changes and click "Send Pull Request" (see image below).  That's it!  A maintainer will review your changes and merge them into the live site if they're ready!
 
 {% image involved/pullrequestbutton %}
 
