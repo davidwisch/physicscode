@@ -13,6 +13,8 @@ In this guide, we'll solve for the position of an object that is launched from t
 
 These are 2D simulations (that is, they track the X and Y coordinates and can account for a simple constant horizontal force (drag or push)).
 
+**NOTE** that some of the programs could be expressed with fewer lines of code but they're written the way they are to maintain a comfortable level of abstraction.
+
 **Choose a language:**
 
 * [Python](#python)
@@ -43,7 +45,11 @@ See the [graphs](#graphs) from this program.
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
 <div style="clear: both;"></div>
 
-*FILL ME OUT*
+Below is a Fortran implementation of the program.
+
+{% highlight fortran %}
+{% file fortran/physics_numerical_euler.f95 %}
+{% endhighlight %}
 
 <a name="mathematica"></a>
 ## Mathematica
