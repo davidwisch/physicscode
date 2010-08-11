@@ -31,3 +31,7 @@ This section contains programs that are mashups of the various skills discussed 
 
 This section contains examples of programs (of varying complexity and topics) that you're likely to encounter in a computational physics curriculum.
 
+### Numerical Integration
+
+* [Euler Method](/examples/physics_numerical_euler.html)
+
