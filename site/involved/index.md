@@ -272,6 +272,8 @@ If you want a copy of the source code so that you can edit it and contribute cha
 
 <a name="building"></a>
 ## Building the Site
+<div class="to-top"><a href="#top">(Top of Page)</a></div>
+<div style="clear: both;"></div>
 
 Now that you have the code downloaded and all of the dependences installed, it's time to build the site.  Change directories into the physicscode/site directory.  This is the directory that you must launch Jekyll from in order for the site to correctly build.
 
