@@ -33,8 +33,8 @@ def pos(pos_x, pos_y, v_x, v_y, dt):
 
 outfile = open("euler.txt", "w")
 while True:
-	vx, vy = vel(vx, vy, H_DAMP, G, DT)
 	x, y = pos(x, y, vx, vy, DT)
+	vx, vy = vel(vx, vy, H_DAMP, G, DT)
 
 	t += DT
 

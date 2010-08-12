@@ -5,15 +5,20 @@ title: Numerical Integration- Euler Method
 
 # Numerical Integration - Euler Method
 
-The Euler method is the most basic approach to numerical integration of an equation.  The Euler method, while extremely simple,  can produces significant amounts of error over time (*O(h<sup>2</sup>*)) and is considered less stable than other methods.  The Euler method can be use on any [Ordinary Differential Equation](http://mathworld.wolfram.com/OrdinaryDifferentialEquation.html) provided an initial condition.
+The Euler method is the most basic approach to numerical integration of an equation.  The Euler method, while extremely simple,  can produces significant amounts of error over time (*O(h<sup>2</sup>*), where *h* is the step size) and is considered less stable than other methods.  The Euler method can be use on any [Ordinary Differential Equation](http://mathworld.wolfram.com/OrdinaryDifferentialEquation.html) provided an initial condition.
 
 You can read more about the Euler method on [Wolfram Mathworld](http://mathworld.wolfram.com/EulerForwardMethod.html) and [Wikipedia](http://en.wikipedia.org/wiki/Euler_method).
+
+There is a slight variation of the Euler method known as the **Euler-Cromer** method (sometimes called the Semi-implicit Euler method).  This method is considered more accurate than that basic Euler method.  The examples in this guide demonstrate the Euler method but conversion to the Euler-Cromer method is straightforward.  You can read more about the Euler-Cromer method on [Wikipedia](http://en.wikipedia.org/wiki/Euler-Cromer_algorithm).
+
 
 In this guide, we'll solve for the position of an object that is launched from the ground at an angle.  The object will be launched from an angle of 30 degrees (from the horizontal) with an initial velocity of 112 m/s.
 
 These are 2D simulations (that is, they track the X and Y coordinates and can account for a simple constant horizontal force (drag or push)).
 
 **NOTE** that some of the programs could be expressed with fewer lines of code but they're written the way they are to maintain a comfortable level of abstraction.
+
+**NOTE** that these simulations could be easily changed to use the [Euler-Cromer](http://en.wikipedia.org/wiki/Euler-Cromer_algorithm) method simply by swapping the order that position and velocity are calculated in.
 
 **Choose a language:**
 

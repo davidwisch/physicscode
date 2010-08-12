@@ -7,7 +7,7 @@ PROGRAM physics_numerical_euler
 
 	REAL :: ANGLE, V0, DT, G, H_DAMP ! to be constants
 	REAL :: t, x, y, vx, vy, PI
-	PARAMETER (ANGLE = 30.0, V0 = 112.0, DT = 0.01, G = -9.8, H_DAMP = 2.0)
+	PARAMETER (ANGLE = 30.0, V0 = 112.0, DT = 0.01, G = -9.8, H_DAMP = 0.0)
 
 	PI = 4.0 * ATAN(1.0)
 
@@ -20,11 +20,11 @@ PROGRAM physics_numerical_euler
 
 	OPEN(UNIT=55, FILE="euler.txt", STATUS="REPLACE")
 	DO
-		vx = vel(vx, H_DAMP, DT)
-		vy = vel(vy, G, DT)
-
 		x = pos(x, vx, DT)
 		y = pos(y, vy, DT)
+
+		vx = vel(vx, H_DAMP, DT)
+		vy = vel(vy, G, DT)
 
 		t = t + DT
 
