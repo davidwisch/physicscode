@@ -12,9 +12,8 @@ This guide will show you the syntax of **IF**, **ELSE IF**, and **ELSE** stateme
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
+
 
 If you want to get fancy, you can read about [ternary operations](http://en.wikipedia.org/wiki/Ternary_operation).
 
@@ -52,13 +51,6 @@ Here is a simple example of how to use them:
 
 There are other operations, not mentioned here, that could be useful.  See the [official documentation](http://docs.python.org/tutorial/controlflow.html) for more information.
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
-
 <a name="fortran"></a>
 ## Fortran
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
@@ -87,9 +79,4 @@ Here is a simple example of how to use them:
 {% file fortran/basic_control_andor.f95 %}
 {% endhighlight %}
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
 
-*FILL ME OUT*

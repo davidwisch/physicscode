@@ -9,14 +9,12 @@ Arrays are incredibly useful for storing generated or related data.  Arrays are 
 
 For example, in a simulation of a skater on ice, you may want to keep track of their position and velocity over the duration of the simulation.  Declaring many variables to store this information is silly when instead you can store everything you need in a single array.
 
-All four of our languages support some kind of an array.  However, their specific implementations are quite different.
+All  of our languages support some kind of an array.  However, their specific implementations are quite different.
 
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 
@@ -156,32 +154,6 @@ Here is another example, looping over the same array, except using integers as t
 
 **NOTE:** Looping over Python lists and arrays uses the same syntax.
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-C++ section, make general comments here
-
-**Jump To:**
-
-* [One-Dimensional Arrays](#cpp-1d)
-* [Multidimensional Arrays](#cpp-multi)
-
-<a name="cpp-1d"></a>
-### One-Dimensional Arrays
-
-1D comments go here.
-
-{% highlight cpp %}
-{% file cpp/basic_arrays_1d.cpp %}
-{% endhighlight %}
-
-<a name="cpp-multi"></a>
-### Multidimensional Arrays
-
-Multidimensional comments go here.
-
 <a name="fortran"></a>
 ## Fortran
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
@@ -260,9 +232,3 @@ Here is an example:
 {% file fortran/basic_arrays_looping2.f95 %}
 {% endhighlight %}
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*

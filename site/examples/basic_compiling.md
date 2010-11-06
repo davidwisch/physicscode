@@ -10,9 +10,8 @@ When you *compile* a program, you tell a program (called a *compiler*) to turn t
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
+
 
 <a name="python"></a>
 ## Python
@@ -32,13 +31,6 @@ python basic_running.py
 {% endhighlight %}
 
 will produce the output "Hello World!"...no compiling needed..
-
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ## Fortran
@@ -86,9 +78,3 @@ Both of the above commands will produce an executable named *basic_running* inst
 
 **NOTE:** From now on, all Fortran examples will be tested and shown using the g95 compiler.  Don't worry if you're using gfortran, the two are very similar.
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*

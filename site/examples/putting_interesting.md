@@ -24,9 +24,7 @@ The above equation will be sampled 250,000 times in the range of 1 &rarr; 5.
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 ### Python
@@ -38,11 +36,6 @@ The following is an implementation of the program in Python.
 {% file python/putting_interesting.py %}
 {% endhighlight %}
 
-<a name="cpp"></a>
-### C++
-<div style="clear:both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ### Fortran
@@ -52,11 +45,6 @@ The following is an implementation of the program in Python.
 {% file fortran/putting_interesting.f95 %}
 {% endhighlight %}
 
-<a name="Mathematica"></a>
-### Mathematica
-<div style="clear:both;"></div>
-
-*FILL ME OUT*
 
 ## The Graphs
 

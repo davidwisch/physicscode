@@ -9,14 +9,12 @@ title: Looping Structures
 
 Loops are an essential component of many programs.  They allow you to traverse arrays ([next section](/examples/basic_arrays.html)), [sample functions](/examples/physics_sampling), sort data, etc.
 
-All of the languages in this guide support the basic **for** and **while** loops (although the requisite syntax differs) and Python and Mathematica support implicit loops for arrays in the form of mapping functions.  Emphasis will be placed on the traditional *for* and *while* loops but there will be some short examples of array mapping.
+All of the languages in this guide support the basic **for** and **while** loops (although the requisite syntax differs) and Python supports implicit loops for arrays in the form of mapping functions.  Emphasis will be placed on the traditional *for* and *while* loops but there will be some short examples of array mapping.
 
 **Choose your language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 ## Python
@@ -84,12 +82,6 @@ The following example is used in the [reading/writing files](/examples/basic_arr
 
 **NOTE:** The *len()* function returns the length, as an integer, of a list.  In the above example *lines[i]* represents a line in the lines list and is a list itself that we pass to the *float()* function through our *map()* function.
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ## Fortran
@@ -125,9 +117,4 @@ Here is an example that has the same output as the previous example:
 
 It is possible to construct loop-like structures using Fortran's *GOTO* statement.  While unfortunately common, this approach is nonstandard and thus will not get an example here.
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
 
-*FILL ME OUT*

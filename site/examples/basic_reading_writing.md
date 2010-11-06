@@ -14,9 +14,7 @@ When reading data from a file, you will have to know the format of the data ahea
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 ## Python
@@ -116,13 +114,6 @@ Below is the datafile used in all of the above Python examples:
 {% file python/sampledata.txt %}
 {% endhighlight %}
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
-
 <a name="fortran"></a>
 ## Fortran
 <div class="to-top"><a href="#top">(Top of Page)</a></div>
@@ -176,9 +167,4 @@ The following is the datafile used in the above Fortran 'read' example.  Notice 
 {% file fortran/sampledata.txt %}
 {% endhighlight %}
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
 
-*FILL ME OUT*

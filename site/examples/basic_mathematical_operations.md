@@ -7,14 +7,10 @@ title: Basic Mathematical Operations
 
 Most programming languages have the native ability to perform basic, and sometimes even moderately advanced mathematical operations.  This guide will demonstrate the use of basic arithmetic, use of functions like sine, cosine, and tangent, as well as some basic logarithms.
 
-Mathematica has an ENORMOUS number of build in numerical functions and libraries, far exceeding the number in native Python, C++, or Fortran.
-
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 ## Python
@@ -40,12 +36,6 @@ Here is the modified import statement:
 from math import *
 {% endhighlight %}
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ## Fortran
@@ -62,9 +52,4 @@ Here is an example of a Fortran program that demonstrates the use of arithmetic,
 {% file fortran/basic_mathematical_operations.f95 %}
 {% endhighlight %}
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
 
-*FILL ME OUT*

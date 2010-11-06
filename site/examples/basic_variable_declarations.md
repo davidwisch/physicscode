@@ -10,9 +10,7 @@ Variables are one of the most basic building blocks of any program.  They allow 
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 ## Python
@@ -27,12 +25,6 @@ Here's an example of a Python program using different types of variables:
 {% file python/basic_variables.py %}
 {% endhighlight %}
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ## Fortran
@@ -59,9 +51,4 @@ Here is an example that demonstrates the use of some common Fortran variable typ
 
 **NOTE** the use of the **TRIM** function to remove whitespace from the CHARACTER variables.  In Fortran, if you assign fewer characters to a variable than its maximum length, there will be whitespace at the end of the string.
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
 
-*FILL ME OUT*

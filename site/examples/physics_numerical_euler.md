@@ -23,9 +23,7 @@ These are 2D simulations (that is, they track the X and Y coordinates and can ac
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 See the [graphs](#graphs) from this program.
 
@@ -38,12 +36,6 @@ See the [graphs](#graphs) from this program.
 {% file python/physics_numerical_euler.py %}
 {% endhighlight %}
 
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ## Fortran
@@ -55,13 +47,6 @@ Below is a Fortran implementation of the program.
 {% highlight fortran %}
 {% file fortran/physics_numerical_euler.f95 %}
 {% endhighlight %}
-
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="graphs">
 ## Graphs

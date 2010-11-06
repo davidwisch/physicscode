@@ -14,9 +14,7 @@ All major languages allow for some form of user-defined functions.  The basic de
 **Choose a language:**
 
 * [Python](#python)
-* [C++](#cpp)
 * [Fortran](#fortran)
-* [Mathematica](#mathematica)
 
 <a name="python"></a>
 ## Python
@@ -60,13 +58,6 @@ Clearly this type of function could be very useful to us in a real program.  You
 **NOTE:** There were two times in the above example where we ensured that our calculations were done as floats instead of integers.  There's an explicit *float()* cast when calculating the average, then we multiply by 1.0 when we multiply scale our inner sum.  Without these, as long as we pass a list of integers, the result will always be *0.0* (the result, *0.0* is a float because *math.sqrt()* always returns a float).
 
 **NOTE:** Some Python functions used in the example that might be helpful to examine further are: [sum()](http://docs.python.org/library/functions.html#sum), [len()](http://docs.python.org/library/functions.html#len), [float()](http://docs.python.org/library/functions.html#float), and [math.sqrt()](http://docs.python.org/library/math.html#math.sqrt).  This example also makes use of a [shortened syntax](/examples/reference.html#python-incrementers) available in Python for adding and multiplying an existing value by another one.
-
-<a name="cpp"></a>
-## C++
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
 
 <a name="fortran"></a>
 ## Fortran
@@ -152,9 +143,3 @@ The following is an example of a subroutine that calculates the [sample standard
 
 Notice how the *sd* variable is passed into the subroutine, had a value assigned, then used in the *PRINT* statement after the subroutine call.
 
-<a name="mathematica"></a>
-## Mathematica
-<div class="to-top"><a href="#top">(Top of Page)</a></div>
-<div style="clear: both;"></div>
-
-*FILL ME OUT*
